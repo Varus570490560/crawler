@@ -1,0 +1,50 @@
+import requests
+import json
+
+
+def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int):
+    url = 'https://www.taptap.io/webapiv2/review/v2/by-app'
+    param_app_id = app_id_begin
+    param_limit = 10
+    param_from = 0
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 '
+    }
+    while True:
+        param = {
+            'app_id': str(param_app_id),
+            'limit': str(param_limit),
+            'from': str(param_from),
+            'X-UA': 'V=1&PN=WebAppIntl&LANG=zh_TW&VN_CODE=59&VN=0.1.0&LOC=CN&PLT=PC&DS=Android&UID=22a3964e-db21-41a2-852d-f30283cda0f3&VID=434092598&DT=PC'
+        }
+        response = requests.get(url=url, params=param, headers=headers)
+        page_text = response.json()
+        file_name = 'comment' + ' appID=' + str(param_app_id) + ' from=' + str(param_from) + '.json'
+        with open(file_name, 'w', encoding='utf-8') as fp:
+            json.dump(page_text, fp=fp, ensure_ascii=False, indent=4)
+        print(file_name, "Saved!!!")
+        if 'data' not in page_text:
+            param_app_id += 1
+            param_from = 0
+        elif bool(1 - page_text['success']) or ('list' in page_text['data'] and len(page_text['data']['list'])) == 0:
+            param_app_id += 1
+            param_from = 0
+        elif 'list' not in page_text['data']:
+            param_app_id += 1
+            param_from = 0
+        else:
+            param_from += 10
+        if param_app_id == app_id_end + 1:
+            break
+
+
+def crawling_by_app_id(app_id: int):
+    crawling_by_app_id_auto_increment(app_id, app_id)
+
+
+def crawling_by_app_name():
+    pass
+
+
+if __name__ == '__main__':
+    crawling_by_app_id(213)
