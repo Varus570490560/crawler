@@ -1,10 +1,7 @@
 import string
 
 import requests
-
-
-def crawling_by_app_name():
-    pass
+import crawling_by_id
 
 
 def search_for_id_and_package_by_name(app_name: string):
@@ -37,3 +34,15 @@ def search_for_id_and_package_by_name(app_name: string):
                 app_package_name = page_text['data']['list'][0]['app']['identifier']
                 app_id = page_text['data']['list'][0]['app']['id']
                 return app_id, app_package_name
+
+
+def crawling_by_app_name(app_name: string, app_package: string):
+    app_info = search_for_id_and_package_by_name(app_name)
+    if app_info is None:
+        print('crawling failed')
+        return
+    elif app_info[1] != app_package:
+        print('package validation failed')
+        return
+    else:
+        crawling_by_id.crawling_by_app_id(app_info[0])

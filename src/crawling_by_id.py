@@ -3,7 +3,9 @@ import json
 import os
 
 
-def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int):
+def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int, app_name=""):
+    if app_name != "":
+        app_name = " "+app_name
     url = 'https://www.taptap.io/webapiv2/review/v2/by-app'
     param_app_id = app_id_begin
     param_limit = 10
@@ -20,7 +22,7 @@ def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int):
         }
         response = requests.get(url=url, params=param, headers=headers)
         page_text = response.json()
-        file_name = './container/comment' + ' appID=' + str(param_app_id) + ' from=' + str(param_from) + '.json'
+        file_name = './container/comment'+app_name + ' appID=' + str(param_app_id) + ' from=' + str(param_from) + '.json'
         with open(file_name, 'w', encoding='utf-8') as fp:
             json.dump(page_text, fp=fp, ensure_ascii=False, indent=4)
         print(file_name, "Saved!!!")
@@ -40,6 +42,5 @@ def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int):
     os.remove(file_name)
 
 
-def crawling_by_app_id(app_id: int):
-    crawling_by_app_id_auto_increment(app_id, app_id)
-
+def crawling_by_app_id(app_id: int, app_name=""):
+    crawling_by_app_id_auto_increment(app_id, app_id, app_name)
