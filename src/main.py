@@ -1,6 +1,6 @@
 import requests
 import json
-
+import os
 
 def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int):
     url = 'https://www.taptap.io/webapiv2/review/v2/by-app'
@@ -36,6 +36,8 @@ def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int):
             param_from += 10
         if param_app_id == app_id_end + 1:
             break
+    os.remove(file_name)
+
 
 
 def crawling_by_app_id(app_id: int):
