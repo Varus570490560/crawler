@@ -19,7 +19,7 @@ def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int):
         }
         response = requests.get(url=url, params=param, headers=headers)
         page_text = response.json()
-        file_name = 'comment' + ' appID=' + str(param_app_id) + ' from=' + str(param_from) + '.json'
+        file_name = './container/comment' + ' appID=' + str(param_app_id) + ' from=' + str(param_from) + '.json'
         with open(file_name, 'w', encoding='utf-8') as fp:
             json.dump(page_text, fp=fp, ensure_ascii=False, indent=4)
         print(file_name, "Saved!!!")
