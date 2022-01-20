@@ -1,3 +1,5 @@
+from typing import Any
+
 import requests
 import json
 import os
@@ -13,6 +15,7 @@ def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int, app_na
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 '
     }
+    page_texts = list()
     while True:
         param = {
             'app_id': str(param_app_id),
@@ -22,6 +25,7 @@ def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int, app_na
         }
         response = requests.get(url=url, params=param, headers=headers)
         page_text = response.json()
+        page_texts.append(page_text)
         file_name = './container/comment'+app_name + ' appID=' + str(param_app_id) + ' from=' + str(param_from) + '.json'
         with open(file_name, 'w', encoding='utf-8') as fp:
             json.dump(page_text, fp=fp, ensure_ascii=False, indent=4)
@@ -40,7 +44,8 @@ def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int, app_na
         if param_app_id == app_id_end + 1:
             break
     os.remove(file_name)
+    return page_texts
 
 
 def crawling_by_app_id(app_id: int, app_name=""):
-    crawling_by_app_id_auto_increment(app_id, app_id, app_name)
+    return crawling_by_app_id_auto_increment(app_id, app_id, app_name)

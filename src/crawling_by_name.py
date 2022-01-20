@@ -3,6 +3,8 @@ from typing import Tuple
 
 import requests
 import crawling_by_id
+import analysis
+import connect_mysql
 
 
 def search_for_id_and_package_by_name(app_name: string):
@@ -46,9 +48,14 @@ def crawling_by_app_name(app_name: string, app_package: string):
         print('package validation failed')
         return
     else:
-        crawling_by_id.crawling_by_app_id(app_info[0], app_name)
+        return crawling_by_id.crawling_by_app_id(app_info[0], app_name)
 
 
-def crawling_by_app_names_and_packages(apps: Tuple):
+def crawling_by_app_names_and_packages(apps: Tuple, db):
     for app in apps:
-        crawling_by_app_name(app[0], app[1])
+        texts = crawling_by_app_name(app[0], app[1])
+        if texts is not None:
+            for text in texts:
+                tuples = analysis.analysis_game_comment_json_to_tuple(text, app[2])
+                for value in tuples:
+                    connect_mysql.insert_result_comment(db, value)
