@@ -1,4 +1,5 @@
 import string
+from typing import Tuple
 
 import requests
 import crawling_by_id
@@ -45,4 +46,9 @@ def crawling_by_app_name(app_name: string, app_package: string):
         print('package validation failed')
         return
     else:
-        crawling_by_id.crawling_by_app_id(app_info[0])
+        crawling_by_id.crawling_by_app_id(app_info[0], app_name)
+
+
+def crawling_by_app_names_and_packages(apps: Tuple):
+    for app in apps:
+        crawling_by_app_name(app[0], app[1])
