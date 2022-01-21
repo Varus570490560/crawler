@@ -18,6 +18,7 @@ def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int, app_na
     page_texts = list()
     while True:
         param = {
+            'sort': 'hot',
             'app_id': str(param_app_id),
             'limit': str(param_limit),
             'from': str(param_from),
