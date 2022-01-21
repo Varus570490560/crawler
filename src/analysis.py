@@ -30,3 +30,13 @@ def analysis_game_sub_comment_json_to_tuple(json_input, id_and_app_id):
         app_id = id_and_app_id[1]
         res.append((sub_comment_id, app_id, comment_id, created_time, author_id, to_author_id, content, like_count))
     return res
+
+
+def analysis_author_json_to_tuple(json_input):
+    name = json_input['data']['name']
+    author_id = json_input['data']['id']
+    following_count = json_input['data']['stat']['following_count']
+    fans_count = json_input['data']['stat']['fans_count']
+    introduction = json_input['data']['intro']
+    icon_url = json_input['data']['avatar']
+    return author_id, name, following_count, fans_count, introduction, icon_url

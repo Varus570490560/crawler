@@ -40,9 +40,9 @@ def crawling_sub_comment_by_id(comment_id, is_print):
             param_from += 10
 
 
-def crawling_sub_comment_by_ids_and_app_ids(ids_and_app_ids, db):
+def crawling_sub_comment_by_ids_and_app_ids(ids_and_app_ids, is_print, db):
     for id_and_app_id in ids_and_app_ids:
-        response_jsons = crawling_sub_comment_by_id(id_and_app_id[0], True)
+        response_jsons = crawling_sub_comment_by_id(id_and_app_id[0], is_print)
         for response_json in response_jsons:
             analysis_tuples = analysis.analysis_game_sub_comment_json_to_tuple(response_json, id_and_app_id)
             for analysis_tuple in analysis_tuples:

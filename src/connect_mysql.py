@@ -70,3 +70,31 @@ def insert_sub_comment(db, value):
             print('database saved!')
         except Exception as err:
             print(err)
+
+
+def select_author_id():
+    try:
+        db = pymysql.connect(host='localhost', user='root', password='', port=3306, database='game_comment')
+        print('源数据库连接成功')
+    except pymysql.Error as e:
+        print('源数据库连接失败', e)
+        return None
+    cur = db.cursor()
+    cur.execute(
+        "SELECT distinct author_id FROM game_comment_1 UNION select distinct author_id FROM game_comment_2;")
+    res = cur.fetchall()
+    cur.close()
+    db.close()
+    return res
+
+
+def insert_author(db, value):
+    print(value)
+    with db.cursor() as cursor:
+        try:
+            cursor.execute(
+                'insert into `author` (`id`,`name`,`following_count`,`fans_count`,`introduction`,`icon_url`) values(%s,%s,%s,%s,%s,%s)',
+                value)
+            print('database saved!')
+        except Exception as err:
+            print(err)

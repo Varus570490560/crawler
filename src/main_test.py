@@ -1,4 +1,4 @@
-import crawling_sub_comment
+import crawling_author_by_id
 
 if __name__ == '__main__':
-    crawling_sub_comment.crawling_sub_comment_by_id(2147503881, True)
+    crawling_user_by_id.crawling_user_by_id(434092598, True)
