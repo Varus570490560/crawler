@@ -21,7 +21,7 @@ def select_app_name_package_id(host: string, user: string, password: string, por
 
 def open_des_database(host: string, user: string, password: string, port: int, database: string):
     try:
-        db = pymysql.connect(host=host, user=user, password=password, port=port, database=database,autocommit=True)
+        db = pymysql.connect(host=host, user=user, password=password, port=port, database=database, autocommit=True)
         print('目的数据库连接成功')
     except pymysql.Error as e:
         print('目的数据库连接失败', e)
@@ -35,7 +35,7 @@ def insert_result_comment(db, value):
     with db.cursor() as cursor:
         try:
             cursor.execute(
-                'insert into `game_comment` (`created_time`,`star`,`device`,`author_id`,`like_count`,`dislike_count`,`reply_count`,`content`,`app_id`) values(%s,%s,%s,%s,%s,%s,%s,%s,%s)',
+                'insert into `game_comment_1` (`id`,`created_time`,`star`,`device`,`author_id`,`like_count`,`dislike_count`,`reply_count`,`content`,`app_id`) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)',
                 value)
             print('database saved!')
         except Exception as err:
