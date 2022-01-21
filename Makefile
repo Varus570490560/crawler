@@ -8,3 +8,5 @@ clear_all_container:
 	rm -f ./comment_container/* ./sub_comment_container/*
 clear_sub_comment_container:
 	rm -f ./sub_comment_container/*
+test:
+	python ./src/main_test.py

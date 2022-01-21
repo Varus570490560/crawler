@@ -58,4 +58,4 @@ def crawling_by_app_names_and_packages(apps: Tuple, db):
             for text in texts:
                 tuples = analysis.analysis_game_comment_json_to_tuple(text, app[2])
                 for value in tuples:
-                    connect_mysql.insert_result_comment(db, value)
+                    connect_mysql.insert_comment(db, value)

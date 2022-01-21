@@ -2,9 +2,11 @@ import json
 import os
 
 import requests
+import analysis
+import connect_mysql
 
 
-def crawling_sub_commit_by_id(comment_id, app_id, is_print):
+def crawling_sub_comment_by_id(comment_id, is_print):
     url = 'https://www.taptap.io/webapiv2/review-comment/v1/by-review'
     param_from = 0
     headers = {
@@ -23,7 +25,7 @@ def crawling_sub_commit_by_id(comment_id, app_id, is_print):
         response = requests.get(url=url, headers=headers, params=params)
         response_json = response.json()
         if len(response_json['data']['list']) != 0:
-            response_jsons.append((response_json, app_id))
+            response_jsons.append(response_json)
         if is_print:
             file_name = './sub_comment_container/sub_comment parent_comment_id = ' + str(comment_id) + ' from = ' + str(
                 param_from) + '.json'
@@ -36,3 +38,13 @@ def crawling_sub_commit_by_id(comment_id, app_id, is_print):
             return response_jsons
         else:
             param_from += 10
+
+
+def crawling_sub_comment_by_ids_and_app_ids(ids_and_app_ids, db):
+    for id_and_app_id in ids_and_app_ids:
+        response_jsons = crawling_sub_comment_by_id(id_and_app_id[0], True)
+        for response_json in response_jsons:
+            analysis_tuples = analysis.analysis_game_sub_comment_json_to_tuple(response_json, id_and_app_id)
+            for analysis_tuple in analysis_tuples:
+                connect_mysql.insert_sub_comment(db, analysis_tuple)
+                print(analysis_tuple)
