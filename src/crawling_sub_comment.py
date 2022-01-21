@@ -1,4 +1,5 @@
 import json
+import os
 
 import requests
 
@@ -21,11 +22,17 @@ def crawling_sub_commit_by_id(comment_id, app_id, is_print):
         }
         response = requests.get(url=url, headers=headers, params=params)
         response_json = response.json()
-        response_jsons.append((response_json, app_id))
+        if len(response_json['data']['list']) != 0:
+            response_jsons.append((response_json, app_id))
         if is_print:
-            file_name = '../sub_comment_container/sub_comment parent_comment_id = ' + str(comment_id) + ' from = ' + str(
+            file_name = './sub_comment_container/sub_comment parent_comment_id = ' + str(comment_id) + ' from = ' + str(
                 param_from) + '.json'
             with open(file_name, 'w', encoding='utf-8') as fp:
                 json.dump(response_json, fp=fp, ensure_ascii=False, indent=4)
             print(file_name, "Saved!!!")
-            return
+            if len(response_json['data']['list']) == 0:
+                os.remove(file_name)
+        if len(response_json['data']['list']) == 0:
+            return response_jsons
+        else:
+            param_from += 10
