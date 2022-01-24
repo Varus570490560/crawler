@@ -1,9 +1,15 @@
-craw_comment:
-	python ./src/main_crawling_comment.py
-craw_sub_comment:
-	python ./src/main_crawling_sub_comment.py
-craw_author:
-	python ./src/main_crawling_author.py
+craw_comment_com:
+	python ./src/main_crawling_comment.py com
+craw_comment_io:
+	python ./src/main_crawling_comment.py io
+craw_sub_comment_com:
+	python ./src/main_crawling_sub_comment.py com
+craw_sub_comment_io:
+	python ./src/main_crawling_sub_comment.py io
+craw_author_com:
+	python ./src/main_crawling_author.py com
+raw_author_io:
+	python ./src/main_crawling_author.py io
 clear_comment_container:
 	rm -f ./comment_container/*
 clear_all_container:
