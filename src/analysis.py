@@ -1,5 +1,5 @@
 def analysis_game_comment_json_to_tuple(json_input, app_id):
-    res = set()
+    res = list()
     for i in range(len(json_input['data']['list'])):
         comment_id = int(json_input['data']['list'][i]['moment']['extended_entities']['reviews'][0]['id'])
         created_time = int(json_input['data']['list'][i]['moment']['created_time'])
@@ -10,8 +10,8 @@ def analysis_game_comment_json_to_tuple(json_input, app_id):
         dislike_count = int(json_input['data']['list'][i]['moment']['extended_entities']['reviews'][0]['downs'])
         reply_count = int(json_input['data']['list'][i]['moment']['extended_entities']['reviews'][0]['comments'])
         content = json_input['data']['list'][i]['moment']['extended_entities']['reviews'][0]['contents']['text']
-        res.add((comment_id, created_time, star, device, author_id, like_count, dislike_count, reply_count, content,
-                 int(app_id)))
+        res.append((comment_id, created_time, star, device, author_id, like_count, dislike_count, reply_count, content,
+                    int(app_id)))
     return res
 
 

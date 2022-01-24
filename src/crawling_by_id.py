@@ -70,17 +70,22 @@ def crawling_by_app_id(app_id: int, comment_url, is_print, app_name=""):
         response = requests.get(url=comment_url, params=param, headers=headers)
         response_json = response.json()
         response_jsons.append(response_json)
-        if len(response_json['data']['list']) != 0:
-            response_jsons.append(response_json)
-        if is_print:
-            file_name = './comment_container/comment app_name = ' + app_name + ' from = ' + str(
-                param_from) + '.json'
-            with open(file_name, 'w', encoding='utf-8') as fp:
-                json.dump(response_json, fp=fp, ensure_ascii=False, indent=4)
-            print(file_name, "Saved!!!")
+        try:
+            if len(response_json['data']['list']) != 0:
+                response_jsons.append(response_json)
+                print('get app_name =' + app_name + ' from = ' + str(param_from) + ' successfully!!!')
+            if is_print:
+                file_name = './comment_container/comment app_name =' + app_name + ' from = ' + str(
+                    param_from) + '.json'
+                with open(file_name, 'w', encoding='utf-8') as fp:
+                    json.dump(response_json, fp=fp, ensure_ascii=False, indent=4)
+                print(file_name, "Saved!!!")
+                if len(response_json['data']['list']) == 0:
+                    os.remove(file_name)
             if len(response_json['data']['list']) == 0:
-                os.remove(file_name)
-        if len(response_json['data']['list']) == 0:
+                return response_jsons
+            else:
+                param_from += 10
+        except KeyError as e:
+            print(e)
             return response_jsons
-        else:
-            param_from += 10

@@ -1,0 +1,22 @@
+app_name: Geometry Dash
+ need: com.robtopx.geometryjump
+ found: com.oxgames.geometrydashmeltdown
+
+app_name: Clash Royale
+ need: nullsroyale.rel.free
+ found: com.supercell.clashroyale.kunlun
+
+app_name: Stick War: Legacy
+ need: com.maxgames.stickwarlegacy
+ found: None
+
+key_word: 456: Survival gamesearch failed
+
+app_name: Candy Challenge 3D
+ need: com.im.candychallenge3d
+ found: None
+
+app_name: Cookie Carver: Life Challenge
+ need: com.games.cookiecarver
+ found: None
+

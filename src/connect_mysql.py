@@ -98,3 +98,20 @@ def insert_author(db, value):
             print('database saved!')
         except Exception as err:
             print(err)
+
+
+def select_app_id_from_game_comment_1():
+    try:
+        db = pymysql.connect(host='localhost', user='root', password='', port=3306, database='game_comment')
+        print('源数据库连接成功')
+    except pymysql.Error as e:
+        print('源数据库连接失败', e)
+        return None
+    cur = db.cursor()
+    cur.execute(
+        "SELECT distinct app_id FROM game_comment_1;")
+    res = cur.fetchall()
+    cur.close()
+    db.close()
+    return res
+

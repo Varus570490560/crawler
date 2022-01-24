@@ -42,12 +42,17 @@ def crawling_by_app_name(app_name: string, comment_url, search_url, app_package:
     app_info = search_for_id_and_package_by_name(app_name, search_url=search_url)
     if app_info is None:
         print('crawling failed')
+        log_buffer = 'key_word: '+ str(app_name) +'search failed'
+        log.write(log_buffer+"\n\n")
         return
     elif app_info[1] != app_package:
         print('package validation failed')
         print('need: ', app_package)
         print('found: ', app_info[1])
-        log.write('app_name: ', app_name, ' need: ', app_package, ' found: ', app_info[1])
+        log_buffer = 'app_name: ' + str(app_name) +"\n"+ ' need: ' + str(app_package) +"\n"+ ' found: ' + str(
+            app_info[1])+"\n\n"
+        log.write(log_buffer)
+        log.flush()
         return
     else:
         return crawling_by_id.crawling_by_app_id(app_id=app_info[0], app_name=app_name, comment_url=comment_url,
@@ -55,15 +60,11 @@ def crawling_by_app_name(app_name: string, comment_url, search_url, app_package:
 
 
 def crawling_by_app_names_and_packages(apps: Tuple, db, comment_url, search_url, is_print):
-    texts = None
     tuples = None
-    package_validation_failed_log = open('./package_validation_failed/package_validation_failed_log.txt')
+    package_validation_failed_log = open('./package_validation_failed/package_validation_failed_log.txt', 'w')
     for app in apps:
-        try:
-            texts = crawling_by_app_name(app_name=app[0], app_package=app[1], search_url=search_url,
-                                         comment_url=comment_url, log=package_validation_failed_log,is_print=is_print)
-        except KeyError as e:
-            print(e)
+        texts = crawling_by_app_name(app_name=app[0], app_package=app[1], search_url=search_url,
+                                     comment_url=comment_url, log=package_validation_failed_log, is_print=is_print)
         if texts is not None:
             for text in texts:
                 try:
