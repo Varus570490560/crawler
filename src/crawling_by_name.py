@@ -38,7 +38,7 @@ def search_for_id_and_package_by_name(app_name: string, search_url):
                 return app_id, app_package_name
 
 
-def crawling_by_app_name(app_name: string, comment_url, search_url, app_package: string, log):
+def crawling_by_app_name(app_name: string, comment_url, search_url, app_package: string, log, is_print):
     app_info = search_for_id_and_package_by_name(app_name, search_url=search_url)
     if app_info is None:
         print('crawling failed')
@@ -51,17 +51,17 @@ def crawling_by_app_name(app_name: string, comment_url, search_url, app_package:
         return
     else:
         return crawling_by_id.crawling_by_app_id(app_id=app_info[0], app_name=app_name, comment_url=comment_url,
-                                                 is_print=True)
+                                                 is_print=is_print)
 
 
-def crawling_by_app_names_and_packages(apps: Tuple, db, comment_url, search_url):
+def crawling_by_app_names_and_packages(apps: Tuple, db, comment_url, search_url, is_print):
     texts = None
     tuples = None
     package_validation_failed_log = open('./package_validation_failed/package_validation_failed_log.txt')
     for app in apps:
         try:
             texts = crawling_by_app_name(app_name=app[0], app_package=app[1], search_url=search_url,
-                                         comment_url=comment_url, log=package_validation_failed_log)
+                                         comment_url=comment_url, log=package_validation_failed_log,is_print=is_print)
         except KeyError as e:
             print(e)
         if texts is not None:
