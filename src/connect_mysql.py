@@ -10,7 +10,7 @@ def select_app_name_package_id():
         return None
     cur = db.cursor()
     cur.execute(
-        "SELECT app.title,package.package_name,app.id FROM app INNER JOIN package WHERE app.id = package.app_id;")
+        "SELECT distinct app.title,package.package_name,app.id FROM app INNER JOIN package WHERE app.id = package.app_id;")
     res = cur.fetchall()
     cur.close()
     db.close()

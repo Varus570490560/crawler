@@ -38,7 +38,7 @@ def search_for_id_and_package_by_name(app_name: string, search_url):
                 return app_id, app_package_name
 
 
-def crawling_by_app_name(app_name: string, comment_url, search_url, app_package: string):
+def crawling_by_app_name(app_name: string, comment_url, search_url, app_package: string, log):
     app_info = search_for_id_and_package_by_name(app_name, search_url=search_url)
     if app_info is None:
         print('crawling failed')
@@ -47,17 +47,29 @@ def crawling_by_app_name(app_name: string, comment_url, search_url, app_package:
         print('package validation failed')
         print('need: ', app_package)
         print('found: ', app_info[1])
+        log.write('app_name: ', app_name, ' need: ', app_package, ' found: ', app_info[1])
         return
     else:
-        return crawling_by_id.crawling_by_app_id(app_id=app_info[0],app_name=app_name, comment_url=comment_url, is_print=True)
+        return crawling_by_id.crawling_by_app_id(app_id=app_info[0], app_name=app_name, comment_url=comment_url,
+                                                 is_print=True)
 
 
 def crawling_by_app_names_and_packages(apps: Tuple, db, comment_url, search_url):
+    texts = None
+    tuples = None
+    package_validation_failed_log = open('./package_validation_failed/package_validation_failed_log.txt')
     for app in apps:
-        texts = crawling_by_app_name(app_name=app[0], app_package=app[1], search_url=search_url,
-                                     comment_url=comment_url)
+        try:
+            texts = crawling_by_app_name(app_name=app[0], app_package=app[1], search_url=search_url,
+                                         comment_url=comment_url, log=package_validation_failed_log)
+        except KeyError as e:
+            print(e)
         if texts is not None:
             for text in texts:
-                tuples = analysis.analysis_game_comment_json_to_tuple(text, app[2])
+                try:
+                    tuples = analysis.analysis_game_comment_json_to_tuple(text, app[2])
+                except KeyError as e:
+                    print(e)
                 for value in tuples:
                     connect_mysql.insert_comment(db, value)
+    package_validation_failed_log.close()
