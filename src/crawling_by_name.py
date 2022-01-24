@@ -45,6 +45,8 @@ def crawling_by_app_name(app_name: string, comment_url, search_url, app_package:
         return
     elif app_info[1] != app_package:
         print('package validation failed')
+        print('need: ', app_package)
+        print('found: ', app_info[1])
         return
     else:
         return crawling_by_id.crawling_by_app_id(app_id=app_info[0],app_name=app_name, comment_url=comment_url, is_print=True)
