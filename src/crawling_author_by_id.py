@@ -1,5 +1,6 @@
 import json
 import threading
+from time import sleep
 
 import requests
 import analysis
@@ -21,8 +22,11 @@ def crawling_author_by_id(author_id, is_print, author_url):
         timer.start()
         response = requests.get(url=author_url, params=params, headers=headers)
         timer.cancel()
-    except TimeoutError as e:
+    except (TimeoutError, requests.exceptions.SSLError) as e:
         print(e)
+        print('There is a exception,Let me have a rest....')
+        print('zzzZZ')
+        sleep(5)
     if response is None:
         return None
     response_json = response.json()

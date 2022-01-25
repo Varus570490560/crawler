@@ -29,8 +29,11 @@ def crawling_sub_comment_by_id(comment_id, is_print, sub_comment_url):
             timer.start()
             response = requests.get(url=sub_comment_url, headers=headers, params=params)
             timer.cancel()
-        except TimeoutError as e:
+        except (TimeoutError, requests.exceptions.SSLError) as e:
             print(e)
+            print('There is a exception,Let me have a rest....')
+            print('zzzZZ')
+            sleep(5)
         if response is not None:
             response_json = response.json()
             response = None

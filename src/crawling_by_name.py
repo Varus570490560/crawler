@@ -1,4 +1,5 @@
 import string
+from time import sleep
 from typing import Tuple
 
 import requests
@@ -24,8 +25,11 @@ def search_for_id_and_package_by_name(app_name: string, search_url):
         timer.start()
         response = requests.get(url=search_url, params=params, headers=headers)
         timer.cancel()
-    except TimeoutError as e:
+    except (TimeoutError, requests.exceptions.SSLError) as e:
         print(e)
+        print('There is a exception,Let me have a rest....')
+        print('zzzZZ')
+        sleep(5)
     if response is None:
         return None
     page_text = response.json()

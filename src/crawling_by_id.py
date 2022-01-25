@@ -1,4 +1,5 @@
 import threading
+from time import sleep
 
 import requests
 import json
@@ -75,8 +76,11 @@ def crawling_by_app_id(app_id: int, comment_url, is_print, app_name=""):
             timer.start()
             response = requests.get(url=comment_url, params=param, headers=headers)
             timer.cancel()
-        except TimeoutError as e:
+        except (TimeoutError, requests.exceptions.SSLError) as e:
             print(e)
+            print('There is a exception,Let me have a rest....')
+            print('zzzZZ')
+            sleep(5)
         if response is not None:
             response_json = response.json()
             response_jsons.append(response_json)
