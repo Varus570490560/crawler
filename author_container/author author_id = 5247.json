@@ -1,0 +1,107 @@
+{
+    "success": true,
+    "data": {
+        "id": 5247,
+        "name": "宋俞鸿",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/1c4c75e47c4973f717c03fe0096471d8.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/1c4c75e47c4973f717c03fe0096471d8.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "宋俞鸿",
+        "gender": "",
+        "country": "CN",
+        "intro": "",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "stat": {
+            "fans_count": 2,
+            "following_count": 2,
+            "following_developer_count": 0,
+            "following_app_count": 221,
+            "following_console_game_app_count": 0,
+            "following_group_count": 0,
+            "favorite_app_count": 0,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 0,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 7,
+            "votefunny_count": 0,
+            "reserved_count": 2,
+            "reserved_ios_count": 0,
+            "reserved_android_count": 2,
+            "played_count": 240,
+            "cloud_game_played_count": 5,
+            "spent_tips": "299 小時",
+            "played_spent": 1079700,
+            "created_topic_count": 2,
+            "created_post_count": 5,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 6,
+            "created_moment_count": 3,
+            "badges_count": 0,
+            "forum_count": 13,
+            "history_app_count": 100,
+            "history_topic_count": 100,
+            "history_video_count": 100,
+            "created_days": 2088,
+            "reserved_total_count": 2
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/5247",
+            "title": "宋俞鸿的个人主页 - TapTap 发现好游戏",
+            "description": "",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/1c4c75e47c4973f717c03fe0096471d8.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/1c4c75e47c4973f717c03fe0096471d8.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/1c4c75e47c4973f717c03fe0096471d8.jpg",
+                "original_format": "jpg",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "5247"
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 5247,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 5247,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 5247,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 5247,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

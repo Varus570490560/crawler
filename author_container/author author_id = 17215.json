@@ -1,0 +1,112 @@
+{
+    "success": true,
+    "data": {
+        "id": 17215,
+        "name": "User17215",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/a6d709d1436825330e7c9099cc7ea1fa.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/a6d709d1436825330e7c9099cc7ea1fa.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "User17215",
+        "gender": "male",
+        "country": "CN",
+        "intro": "来啊～快活啊～(⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "birthday": {
+            "year": "2016",
+            "month": "11",
+            "day": "21"
+        },
+        "stat": {
+            "fans_count": 2,
+            "following_count": 3,
+            "following_developer_count": 0,
+            "following_app_count": 210,
+            "following_console_game_app_count": 0,
+            "following_group_count": 0,
+            "favorite_app_count": 76,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 2,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 48,
+            "votefunny_count": 4,
+            "reserved_count": 74,
+            "reserved_ios_count": 0,
+            "reserved_android_count": 74,
+            "played_count": 121,
+            "cloud_game_played_count": 0,
+            "spent_tips": "71 分鐘",
+            "played_spent": 4260,
+            "created_topic_count": 2,
+            "created_post_count": 30,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 8,
+            "created_moment_count": 0,
+            "badges_count": 0,
+            "forum_count": 21,
+            "history_app_count": 0,
+            "history_topic_count": 0,
+            "history_video_count": 0,
+            "created_days": 2056,
+            "reserved_total_count": 74
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/17215",
+            "title": "User17215的个人主页 - TapTap 发现好游戏",
+            "description": "来啊～快活啊～(⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/a6d709d1436825330e7c9099cc7ea1fa.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/a6d709d1436825330e7c9099cc7ea1fa.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/a6d709d1436825330e7c9099cc7ea1fa.png",
+                "original_format": "png",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "17215"
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 17215,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 17215,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 17215,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 17215,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

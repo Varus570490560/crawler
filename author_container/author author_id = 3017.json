@@ -1,0 +1,107 @@
+{
+    "success": true,
+    "data": {
+        "id": 3017,
+        "name": "瀚",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/8f2bc07d4adf130e36c1544862a8360e.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/8f2bc07d4adf130e36c1544862a8360e.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "瀚",
+        "gender": "",
+        "country": "",
+        "intro": "",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "stat": {
+            "fans_count": 1,
+            "following_count": 1,
+            "following_developer_count": 1,
+            "following_app_count": 274,
+            "following_console_game_app_count": 0,
+            "following_group_count": 0,
+            "favorite_app_count": 11,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 19,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 14,
+            "votefunny_count": 1,
+            "reserved_count": 0,
+            "reserved_ios_count": 46,
+            "reserved_android_count": 0,
+            "played_count": 1043,
+            "cloud_game_played_count": 0,
+            "spent_tips": "20 分鐘",
+            "played_spent": 1200,
+            "created_topic_count": 4,
+            "created_post_count": 6,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 7,
+            "created_moment_count": 0,
+            "badges_count": 0,
+            "forum_count": 14,
+            "history_app_count": 33,
+            "history_topic_count": 100,
+            "history_video_count": 18,
+            "created_days": 2094,
+            "reserved_total_count": 46
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/3017",
+            "title": "瀚的个人主页 - TapTap 发现好游戏",
+            "description": "",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/8f2bc07d4adf130e36c1544862a8360e.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/8f2bc07d4adf130e36c1544862a8360e.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/8f2bc07d4adf130e36c1544862a8360e.jpg",
+                "original_format": "jpg",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "3017"
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 3017,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 3017,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 3017,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 3017,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

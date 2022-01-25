@@ -1,0 +1,160 @@
+{
+    "success": true,
+    "data": {
+        "id": 6210,
+        "name": "vago",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/etag/FtUfWdk3Qa4lis2_V6pYdO3HCPpx.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/etag/FtUfWdk3Qa4lis2_V6pYdO3HCPpx.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "vago",
+        "gender": "male",
+        "country": "CN",
+        "intro": "游戏王",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "birthday": {
+            "year": "1997",
+            "month": "7",
+            "day": "10"
+        },
+        "badges": [
+            {
+                "id": 11,
+                "title": "《原神》首发徽章",
+                "description": "预约《原神》获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/4f5bd3b12db8c2f9dc0b3b753ddc5739.png",
+                    "middle": "https://img.tapimg.com/market/images/f41ab9aeee4ee14a08c1a0efd20a2eaf.png",
+                    "large": "https://img.tapimg.com/market/images/f10eeb3b35b657f40e3ae9e5dce23fd0.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1601296103
+            },
+            {
+                "id": 13,
+                "title": "五周年限定徽章",
+                "description": "TapTap五周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/5b97c47e36984c5b0f054cc6f4e656de.png",
+                    "middle": "https://img.tapimg.com/market/images/3129ce64b66799aa4b123adb25707e24.png",
+                    "large": "https://img.tapimg.com/market/images/eb272cb0a864e39c0b7d7b1ae3e30e40.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1618632943
+            }
+        ],
+        "stat": {
+            "fans_count": 7,
+            "following_count": 3,
+            "following_developer_count": 2,
+            "following_app_count": 150,
+            "following_console_game_app_count": 0,
+            "following_group_count": 0,
+            "favorite_app_count": 0,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 0,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 189,
+            "votefunny_count": 31,
+            "reserved_count": 81,
+            "reserved_ios_count": 20,
+            "reserved_android_count": 81,
+            "played_count": 405,
+            "cloud_game_played_count": 5,
+            "spent_tips": "997 小時",
+            "played_spent": 3591960,
+            "created_topic_count": 5,
+            "created_post_count": 36,
+            "created_video_count": 2,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 40,
+            "created_moment_count": 3,
+            "badges_count": 2,
+            "forum_count": 61,
+            "history_app_count": 100,
+            "history_topic_count": 100,
+            "history_video_count": 100,
+            "created_days": 2086,
+            "reserved_total_count": 94
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/6210",
+            "title": "vago的个人主页 - TapTap 发现好游戏",
+            "description": "游戏王",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/etag/FtUfWdk3Qa4lis2_V6pYdO3HCPpx.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/etag/FtUfWdk3Qa4lis2_V6pYdO3HCPpx.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/etag/FtUfWdk3Qa4lis2_V6pYdO3HCPpx.png",
+                "original_format": "png",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "6210"
+            }
+        },
+        "background": {
+            "image": {
+                "url": "https://img3.tapimg.com/backgrounds/etag/FgYokuUPpwfulTw2K8Nsb-6NJMux.png?imageView2/2/w/1000/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/backgrounds/etag/FgYokuUPpwfulTw2K8Nsb-6NJMux.png?imageView2/2/w/1000/h/9999/q/40/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/backgrounds/etag/FgYokuUPpwfulTw2K8Nsb-6NJMux.png",
+                "original_format": "png",
+                "width": 1344,
+                "height": 1120,
+                "color": "0x3b3064",
+                "original_size": 961796
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 6210,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 6210,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 6210,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 6210,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

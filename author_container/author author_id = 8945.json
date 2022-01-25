@@ -1,0 +1,223 @@
+{
+    "success": true,
+    "data": {
+        "id": 8945,
+        "name": "弹指翻花",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/d732c61007eab912d9465c39fbcff37a.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/d732c61007eab912d9465c39fbcff37a.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "弹指翻花",
+        "gender": "",
+        "country": "TW",
+        "intro": "四月是我的全职",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "badges": [
+            {
+                "id": 13,
+                "title": "五周年限定徽章",
+                "description": "TapTap五周年，我们在一起",
+                "is_wear": true,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/5b97c47e36984c5b0f054cc6f4e656de.png",
+                    "middle": "https://img.tapimg.com/market/images/3129ce64b66799aa4b123adb25707e24.png",
+                    "large": "https://img.tapimg.com/market/images/eb272cb0a864e39c0b7d7b1ae3e30e40.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1618631447
+            },
+            {
+                "id": 1,
+                "title": "两周年限定徽章",
+                "description": "TapTap两周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/11e1ed6daa41e4930364082e28173249.png",
+                    "middle": "https://img.tapimg.com/market/images/3d34a833aec22a9a693b9e3ed8311291.png",
+                    "large": "https://img.tapimg.com/market/images/970c38bf43c3c7a749f1200176d2ea29.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1529033754
+            },
+            {
+                "id": 4,
+                "title": "三周年限定徽章",
+                "description": "TapTap三周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/00971473d9f43b71da88517f386015ef.png",
+                    "middle": "https://img.tapimg.com/market/images/b0d9325c9b6a6374388ebaba385c8278.png",
+                    "large": "https://img.tapimg.com/market/images/44eff38138e17f4813aab9a1503411c4.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1555508951
+            },
+            {
+                "id": 5,
+                "title": "TARARA生日徽章",
+                "description": "参与TARARA生日限定活动获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/13010e2b5dcae60b1b893665bc339627.png",
+                    "middle": "https://img.tapimg.com/market/images/c3bac01de375e6f5078aab9ecb49cca4.png",
+                    "large": "https://img.tapimg.com/market/images/c444547dfaf1d0a21a9e921140aeb180.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1573262148
+            },
+            {
+                "id": 9,
+                "title": "四周年限定徽章",
+                "description": "TapTap四周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/be6cd52c57320cc7a157b55f389ca8e7.png",
+                    "middle": "https://img.tapimg.com/market/images/692a8fafba30cb2207a477f93874f1c4.png",
+                    "large": "https://img.tapimg.com/market/images/8dea138add083d9fc3f84b4dc7e94c3b.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1587155292
+            },
+            {
+                "id": 11,
+                "title": "《原神》首发徽章",
+                "description": "预约《原神》获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/4f5bd3b12db8c2f9dc0b3b753ddc5739.png",
+                    "middle": "https://img.tapimg.com/market/images/f41ab9aeee4ee14a08c1a0efd20a2eaf.png",
+                    "large": "https://img.tapimg.com/market/images/f10eeb3b35b657f40e3ae9e5dce23fd0.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1601294909
+            }
+        ],
+        "stat": {
+            "fans_count": 8,
+            "following_count": 5,
+            "following_developer_count": 20,
+            "following_app_count": 318,
+            "following_console_game_app_count": 0,
+            "following_group_count": 1,
+            "favorite_app_count": 356,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 82,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 525,
+            "votefunny_count": 109,
+            "reserved_count": 421,
+            "reserved_ios_count": 0,
+            "reserved_android_count": 421,
+            "played_count": 569,
+            "cloud_game_played_count": 0,
+            "spent_tips": "2000+ 小時",
+            "played_spent": 27711840,
+            "created_topic_count": 18,
+            "created_post_count": 94,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 39,
+            "created_moment_count": 2,
+            "badges_count": 6,
+            "forum_count": 64,
+            "history_app_count": 100,
+            "history_topic_count": 100,
+            "history_video_count": 36,
+            "created_days": 2074,
+            "reserved_total_count": 421
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/8945",
+            "title": "弹指翻花的个人主页 - TapTap 发现好游戏",
+            "description": "四月是我的全职",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/d732c61007eab912d9465c39fbcff37a.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/d732c61007eab912d9465c39fbcff37a.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/d732c61007eab912d9465c39fbcff37a.png",
+                "original_format": "png",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "8945"
+            }
+        },
+        "background": {
+            "image": {
+                "url": "https://img3.tapimg.com/backgrounds/etag/FrQzv4haV_B53TG7q_WU6vyDXCTk.png?imageView2/2/w/1000/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/backgrounds/etag/FrQzv4haV_B53TG7q_WU6vyDXCTk.png?imageView2/2/w/1000/h/9999/q/40/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/backgrounds/etag/FrQzv4haV_B53TG7q_WU6vyDXCTk.png",
+                "original_format": "png",
+                "width": 1080,
+                "height": 899,
+                "color": "0x594686",
+                "original_size": 859825
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 8945,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 8945,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 8945,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 8945,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

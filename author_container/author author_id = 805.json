@@ -1,0 +1,148 @@
+{
+    "success": true,
+    "data": {
+        "id": 805,
+        "name": "来自非洲的酋长",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/default_avatars/9c385971026af8359a62d0c43ed5f261.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/default_avatars/9c385971026af8359a62d0c43ed5f261.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "来自非洲的酋长",
+        "gender": "male",
+        "country": "HK",
+        "intro": "",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "birthday": {
+            "year": "1997",
+            "month": "5",
+            "day": "14"
+        },
+        "badges": [
+            {
+                "id": 1,
+                "title": "两周年限定徽章",
+                "description": "TapTap两周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/11e1ed6daa41e4930364082e28173249.png",
+                    "middle": "https://img.tapimg.com/market/images/3d34a833aec22a9a693b9e3ed8311291.png",
+                    "large": "https://img.tapimg.com/market/images/970c38bf43c3c7a749f1200176d2ea29.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1529110246
+            },
+            {
+                "id": 4,
+                "title": "三周年限定徽章",
+                "description": "TapTap三周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/00971473d9f43b71da88517f386015ef.png",
+                    "middle": "https://img.tapimg.com/market/images/b0d9325c9b6a6374388ebaba385c8278.png",
+                    "large": "https://img.tapimg.com/market/images/44eff38138e17f4813aab9a1503411c4.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1555543734
+            }
+        ],
+        "stat": {
+            "fans_count": 1,
+            "following_count": 0,
+            "following_developer_count": 2,
+            "following_app_count": 176,
+            "following_console_game_app_count": 0,
+            "following_group_count": 0,
+            "favorite_app_count": 1,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 1,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 32,
+            "votefunny_count": 0,
+            "reserved_count": 22,
+            "reserved_ios_count": 0,
+            "reserved_android_count": 22,
+            "played_count": 185,
+            "cloud_game_played_count": 0,
+            "spent_tips": "7 小時",
+            "played_spent": 28320,
+            "created_topic_count": 33,
+            "created_post_count": 31,
+            "created_video_count": 1,
+            "created_album_count": 1,
+            "created_story_count": 0,
+            "created_review_count": 5,
+            "created_moment_count": 1,
+            "badges_count": 2,
+            "forum_count": 22,
+            "history_app_count": 100,
+            "history_topic_count": 100,
+            "history_video_count": 100,
+            "created_days": 2098,
+            "reserved_total_count": 22
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/805",
+            "title": "来自非洲的酋长的个人主页 - TapTap 发现好游戏",
+            "description": "",
+            "image": {
+                "url": "https://img3.tapimg.com/default_avatars/9c385971026af8359a62d0c43ed5f261.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/default_avatars/9c385971026af8359a62d0c43ed5f261.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/default_avatars/9c385971026af8359a62d0c43ed5f261.jpg",
+                "original_format": "jpg",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "805"
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 805,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 805,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 805,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 805,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

@@ -36,7 +36,7 @@ def insert_comment(db, value):
                 'insert into `game_comment_1` (`id`,`created_time`,`star`,`device`,`author_id`,`like_count`,`dislike_count`,`reply_count`,`content`,`app_id`) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)',
                 value)
             print('database saved!')
-        except Exception as err:
+        except pymysql.Error as err:
             print(err)
 
 
@@ -68,7 +68,7 @@ def insert_sub_comment(db, value):
                 'insert into `game_comment_2` (`id`,`app_id`,`main_comment_id`,`created_time`,`author_id`,`to_author_id`,`content`,`like_count`) values(%s,%s,%s,%s,%s,%s,%s,%s)',
                 value)
             print('database saved!')
-        except Exception as err:
+        except pymysql.Error as err:
             print(err)
 
 
@@ -96,7 +96,7 @@ def insert_author(db, value):
                 'insert into `author` (`id`,`name`,`following_count`,`fans_count`,`introduction`,`icon_url`) values(%s,%s,%s,%s,%s,%s)',
                 value)
             print('database saved!')
-        except Exception as err:
+        except pymysql.Error as err:
             print(err)
 
 

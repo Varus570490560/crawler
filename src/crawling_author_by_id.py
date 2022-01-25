@@ -17,12 +17,28 @@ def crawling_author_by_id(author_id, is_print, author_url):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 '
     }
+    cookies = {
+        'locale': 'zh_CN',
+        'tapadid': '29cadd85-c053-7264-9efb-c3e909d15856',
+        'remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d': 'eyJpdiI6IlRacXRiS3hTTHBZMjdlOUdNc0JNTnc9PSIsInZhbHVlIjoiekFXTFpYeEFua3FFN3ZsMm4rSStrV1NmeTRjSEV3ZnpFZ0g5cGNNeU1VVlNOSW1CQlwvdjhpZDZVM2VBY2c3WEFRVytiU2dzY1FOSXIrM29FaUNsZmdqbjJVdjdDbnhiR2RYRjRialU5M3FJPSIsIm1hYyI6IjBmZTBlZGE0OGM5YWY4ZGQxOWM2OTVhNTI5YWEyYzljZWVhZDhlMzJhNmMzMDBlYTkyNzgyYTVlYzYwMzU5NzIifQ%3D%3D',
+        'user_id': '434091615',
+        'ACCOUNT_LOGGED_USER_FROM_WWW': 'YT6S75wX0LGfwuqjIJRaBw%3D%3D',
+        'CONSOLES_TOKEN_FROM_WWW': 'Qgre9KP9tv%2FJP6eM%2F77epA%3D%3D',
+        'sensorsdata2015jssdkcross': '%7B%22distinct_id%22%3A%22434091615%22%2C%22%24device_id%22%3A%2217e719dc7f5519-0e2dead774e05e-1d326253-1296000-17e719dc7f6135e%22%2C%22props%22%3A%7B%7D%2C%22first_id%22%3A%2217e719dc7f5519-0e2dead774e05e-1d326253-1296000-17e719dc7f6135e%22%7D',
+        '_gid': 'GA1.2.1065213382.1643078798',
+        'apk_download_url_postfix': '/seo-baidu',
+        '_gat': '1',
+        '_ga_6G9NWP07QM': 'GS1.1.1643113479.19.1.1643114091.0',
+        '_ga': 'GA1.1.1501180893.1642311321',
+        'XSRF-TOKEN': 'eyJpdiI6IlJXZHNKT29SK1dLYk1xQnBBQmx2Q2c9PSIsInZhbHVlIjoiVmIxSjdBOFJEcWUxRHJqOUs2b2U5UVwvbUswNHNvSTNwWE5vYitZbkVqamdrdHZMbGhSUDN6cU9YVUtFemZqY1VVUERpK2FYUjJSck5vRDR3blpoWlVRPT0iLCJtYWMiOiI2NWI2MTdmZjYyZWM4OGJkNTUxNmY2YjNjMGUzYjc4Y2ExZDQ2MWQyZGZhNWQ3NDY4YWE2MWZhMTliZjc5ZjU1In0%3D',
+        'tap_sess': 'eyJpdiI6IkVIVGJUbWlcL0dHT08yT29YRXpEV1wvQT09IiwidmFsdWUiOiI0R0dRamtpRHp3NTJcL2xUU1BQN0w3RFwvNllPa1RKbUNYcFBvK3NjU0Z0cXBDNk5nMzV6Y21GcDJmQm5OSFl0TlJcL2RMSEVKZWtMbkc3dXBkYjR4ZEVydz09IiwibWFjIjoiNGU1YzNjNjAzYTJkMWRlMWQ1ZmI3NzQzYTFiM2I1YWVjOTQ0MTU2MzdhMDNjYTcwZGRjY2FiZjA4NDA4YjZhNSJ9'
+    }
     try:
         timer = threading.Timer(20, time_out_exception.throw_time_out_error)
         timer.start()
-        response = requests.get(url=author_url, params=params, headers=headers)
+        response = requests.get(url=author_url, params=params, headers=headers, cookies=cookies)
         timer.cancel()
-    except (TimeoutError, requests.exceptions.SSLError) as e:
+    except (time_out_exception.TimeOutError, requests.exceptions.SSLError) as e:
         print(e)
         print('There is a exception,Let me have a rest....')
         print('zzzZZ')

@@ -1,0 +1,143 @@
+{
+    "success": true,
+    "data": {
+        "id": 10801,
+        "name": "素还真",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/c44309b8b247768018ef97e1727eaa9e.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/c44309b8b247768018ef97e1727eaa9e.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "素还真",
+        "gender": "male",
+        "country": "CN",
+        "intro": "半神半圣亦半仙，全儒全道是全贤，脑中真书藏万卷，掌握文武半边天。",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "birthday": {
+            "year": "1994",
+            "month": "12",
+            "day": "20"
+        },
+        "badges": [
+            {
+                "id": 1,
+                "title": "两周年限定徽章",
+                "description": "TapTap两周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/11e1ed6daa41e4930364082e28173249.png",
+                    "middle": "https://img.tapimg.com/market/images/3d34a833aec22a9a693b9e3ed8311291.png",
+                    "large": "https://img.tapimg.com/market/images/970c38bf43c3c7a749f1200176d2ea29.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1529037557
+            }
+        ],
+        "stat": {
+            "fans_count": 13,
+            "following_count": 3,
+            "following_developer_count": 4,
+            "following_app_count": 219,
+            "following_console_game_app_count": 0,
+            "following_group_count": 0,
+            "favorite_app_count": 137,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 0,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 213,
+            "votefunny_count": 30,
+            "reserved_count": 25,
+            "reserved_ios_count": 25,
+            "reserved_android_count": 25,
+            "played_count": 163,
+            "cloud_game_played_count": 0,
+            "spent_tips": "632 小時",
+            "played_spent": 2275620,
+            "created_topic_count": 1,
+            "created_post_count": 38,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 56,
+            "created_moment_count": 0,
+            "badges_count": 1,
+            "forum_count": 68,
+            "history_app_count": 57,
+            "history_topic_count": 10,
+            "history_video_count": 5,
+            "created_days": 2064,
+            "reserved_total_count": 46
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/10801",
+            "title": "素还真的个人主页 - TapTap 发现好游戏",
+            "description": "半神半圣亦半仙，全儒全道是全贤，脑中真书藏万卷，掌握文武半边天。",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/c44309b8b247768018ef97e1727eaa9e.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/c44309b8b247768018ef97e1727eaa9e.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/c44309b8b247768018ef97e1727eaa9e.jpg",
+                "original_format": "jpg",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "10801"
+            }
+        },
+        "background": {
+            "image": {
+                "url": "https://img3.tapimg.com/backgrounds/etag/Fl9UKpdcfCvhBPTs4s0Rqkx888VY.png?imageView2/2/w/1000/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/backgrounds/etag/Fl9UKpdcfCvhBPTs4s0Rqkx888VY.png?imageView2/2/w/1000/h/9999/q/40/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/backgrounds/etag/Fl9UKpdcfCvhBPTs4s0Rqkx888VY.png",
+                "original_format": "png",
+                "width": 1440,
+                "height": 1200,
+                "color": "0xc7c6db",
+                "original_size": 1505483
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 10801,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 10801,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 10801,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 10801,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

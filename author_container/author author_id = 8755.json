@@ -1,0 +1,240 @@
+{
+    "success": true,
+    "data": {
+        "id": 8755,
+        "name": "战地记者萌萌酱💤",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/4fa61c54db00469da63c67d142257664.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/4fa61c54db00469da63c67d142257664.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "战地记者萌萌酱💤",
+        "gender": "",
+        "country": "CN",
+        "intro": "感谢每一位小伙伴关注(≧∇≦)/♡欢迎小伙伴加友",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "badges": [
+            {
+                "id": 11,
+                "title": "《原神》首发徽章",
+                "description": "预约《原神》获得",
+                "is_wear": true,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/4f5bd3b12db8c2f9dc0b3b753ddc5739.png",
+                    "middle": "https://img.tapimg.com/market/images/f41ab9aeee4ee14a08c1a0efd20a2eaf.png",
+                    "large": "https://img.tapimg.com/market/images/f10eeb3b35b657f40e3ae9e5dce23fd0.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1601282629
+            },
+            {
+                "id": 1,
+                "title": "两周年限定徽章",
+                "description": "TapTap两周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/11e1ed6daa41e4930364082e28173249.png",
+                    "middle": "https://img.tapimg.com/market/images/3d34a833aec22a9a693b9e3ed8311291.png",
+                    "large": "https://img.tapimg.com/market/images/970c38bf43c3c7a749f1200176d2ea29.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1528988125
+            },
+            {
+                "id": 5,
+                "title": "TARARA生日徽章",
+                "description": "参与TARARA生日限定活动获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/13010e2b5dcae60b1b893665bc339627.png",
+                    "middle": "https://img.tapimg.com/market/images/c3bac01de375e6f5078aab9ecb49cca4.png",
+                    "large": "https://img.tapimg.com/market/images/c444547dfaf1d0a21a9e921140aeb180.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1573268776
+            },
+            {
+                "id": 7,
+                "title": "2019 大赏徽章",
+                "description": "参与年度大赏活动获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/2d3ae4df4315fd6c8bb2ed12c87efef7.png",
+                    "middle": "https://img.tapimg.com/market/images/7667c3bea113daa058c273f160b9feed.png",
+                    "large": "https://img.tapimg.com/market/images/e300b356ad69c608a1ee7d5c7ff867a5.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1578051042
+            },
+            {
+                "id": 9,
+                "title": "四周年限定徽章",
+                "description": "TapTap四周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/be6cd52c57320cc7a157b55f389ca8e7.png",
+                    "middle": "https://img.tapimg.com/market/images/692a8fafba30cb2207a477f93874f1c4.png",
+                    "large": "https://img.tapimg.com/market/images/8dea138add083d9fc3f84b4dc7e94c3b.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1587173402
+            },
+            {
+                "id": 13,
+                "title": "五周年限定徽章",
+                "description": "TapTap五周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/5b97c47e36984c5b0f054cc6f4e656de.png",
+                    "middle": "https://img.tapimg.com/market/images/3129ce64b66799aa4b123adb25707e24.png",
+                    "large": "https://img.tapimg.com/market/images/eb272cb0a864e39c0b7d7b1ae3e30e40.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1618644287
+            },
+            {
+                "id": 17,
+                "title": "2021 大赏徽章",
+                "description": "参与 TapTap 年度游戏大赏获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/9b9e148eee36cc11bc8194d9bd6ef3e0.png",
+                    "middle": "https://img.tapimg.com/market/images/fd14967ea39a8cea5585959fbc14c17b.png",
+                    "large": "https://img.tapimg.com/market/images/3416a00ba4201ba0fff651a14f6428ed.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1642253633
+            }
+        ],
+        "stat": {
+            "fans_count": 105,
+            "following_count": 111,
+            "following_developer_count": 9,
+            "following_app_count": 1102,
+            "following_console_game_app_count": 0,
+            "following_group_count": 1,
+            "favorite_app_count": 0,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 4,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 1335,
+            "votefunny_count": 214,
+            "reserved_count": 447,
+            "reserved_ios_count": 0,
+            "reserved_android_count": 447,
+            "played_count": 909,
+            "cloud_game_played_count": 2,
+            "spent_tips": "2000+ 小時",
+            "played_spent": 24702780,
+            "created_topic_count": 3,
+            "created_post_count": 136,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 123,
+            "created_moment_count": 1,
+            "badges_count": 7,
+            "forum_count": 202,
+            "history_app_count": 100,
+            "history_topic_count": 100,
+            "history_video_count": 100,
+            "created_days": 2074,
+            "reserved_total_count": 447
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/8755",
+            "title": "战地记者萌萌酱💤的个人主页 - TapTap 发现好游戏",
+            "description": "感谢每一位小伙伴关注(≧∇≦)/♡欢迎小伙伴加友",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/4fa61c54db00469da63c67d142257664.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/4fa61c54db00469da63c67d142257664.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/4fa61c54db00469da63c67d142257664.png",
+                "original_format": "png",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "8755"
+            }
+        },
+        "background": {
+            "image": {
+                "url": "https://img3.tapimg.com/backgrounds/etag/FkC5iaqcEs5x9pC_x0EseffXgueO.png?imageView2/2/w/1000/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/backgrounds/etag/FkC5iaqcEs5x9pC_x0EseffXgueO.png?imageView2/2/w/1000/h/9999/q/40/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/backgrounds/etag/FkC5iaqcEs5x9pC_x0EseffXgueO.png",
+                "original_format": "png",
+                "width": 1080,
+                "height": 899,
+                "color": "0xa5ae97",
+                "original_size": 1247625
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 8755,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 8755,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 8755,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 8755,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

@@ -25,7 +25,7 @@ def search_for_id_and_package_by_name(app_name: string, search_url):
         timer.start()
         response = requests.get(url=search_url, params=params, headers=headers)
         timer.cancel()
-    except (TimeoutError, requests.exceptions.SSLError) as e:
+    except (time_out_exception.TimeOutError, requests.exceptions.SSLError) as e:
         print(e)
         print('There is a exception,Let me have a rest....')
         print('zzzZZ')

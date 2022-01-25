@@ -1,0 +1,148 @@
+{
+    "success": true,
+    "data": {
+        "id": 342,
+        "name": "👊✌✋",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/9b193c07ae0b0267a932a781b5820d72.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/9b193c07ae0b0267a932a781b5820d72.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "👊✌✋",
+        "gender": "male",
+        "country": "HK",
+        "intro": "一位游戏热爱者。",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "birthday": {
+            "year": "1994",
+            "month": "8",
+            "day": "24"
+        },
+        "badges": [
+            {
+                "id": 5,
+                "title": "TARARA生日徽章",
+                "description": "参与TARARA生日限定活动获得",
+                "is_wear": true,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/13010e2b5dcae60b1b893665bc339627.png",
+                    "middle": "https://img.tapimg.com/market/images/c3bac01de375e6f5078aab9ecb49cca4.png",
+                    "large": "https://img.tapimg.com/market/images/c444547dfaf1d0a21a9e921140aeb180.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1573259556
+            },
+            {
+                "id": 1,
+                "title": "两周年限定徽章",
+                "description": "TapTap两周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/11e1ed6daa41e4930364082e28173249.png",
+                    "middle": "https://img.tapimg.com/market/images/3d34a833aec22a9a693b9e3ed8311291.png",
+                    "large": "https://img.tapimg.com/market/images/970c38bf43c3c7a749f1200176d2ea29.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1528985998
+            }
+        ],
+        "stat": {
+            "fans_count": 9,
+            "following_count": 6,
+            "following_developer_count": 0,
+            "following_app_count": 0,
+            "following_console_game_app_count": 0,
+            "following_group_count": 0,
+            "favorite_app_count": 0,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 2,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 64,
+            "votefunny_count": 0,
+            "reserved_count": 308,
+            "reserved_ios_count": 0,
+            "reserved_android_count": 308,
+            "played_count": 876,
+            "cloud_game_played_count": 2,
+            "spent_tips": "627 小時",
+            "played_spent": 2259180,
+            "created_topic_count": 4,
+            "created_post_count": 20,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 14,
+            "created_moment_count": 1,
+            "badges_count": 2,
+            "forum_count": 25,
+            "history_app_count": 100,
+            "history_topic_count": 100,
+            "history_video_count": 100,
+            "created_days": 2098,
+            "reserved_total_count": 308
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/342",
+            "title": "👊✌✋的个人主页 - TapTap 发现好游戏",
+            "description": "一位游戏热爱者。",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/9b193c07ae0b0267a932a781b5820d72.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/9b193c07ae0b0267a932a781b5820d72.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/9b193c07ae0b0267a932a781b5820d72.jpg",
+                "original_format": "jpg",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "342"
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 342,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 342,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 342,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 342,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

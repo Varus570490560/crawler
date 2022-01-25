@@ -1,0 +1,245 @@
+{
+    "success": true,
+    "data": {
+        "id": 9256,
+        "name": "200bear",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/dd5998cce30d3c0259c26483f493f9cb.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/dd5998cce30d3c0259c26483f493f9cb.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "200bear",
+        "gender": "male",
+        "country": "HK",
+        "intro": "怠惰と狂気の支配者—穆斯塔法.两百 来自百度后宫动漫吧   ",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "birthday": {
+            "year": "1993",
+            "month": "1",
+            "day": "1"
+        },
+        "badges": [
+            {
+                "id": 13,
+                "title": "五周年限定徽章",
+                "description": "TapTap五周年，我们在一起",
+                "is_wear": true,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/5b97c47e36984c5b0f054cc6f4e656de.png",
+                    "middle": "https://img.tapimg.com/market/images/3129ce64b66799aa4b123adb25707e24.png",
+                    "large": "https://img.tapimg.com/market/images/eb272cb0a864e39c0b7d7b1ae3e30e40.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1618717135
+            },
+            {
+                "id": 1,
+                "title": "两周年限定徽章",
+                "description": "TapTap两周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/11e1ed6daa41e4930364082e28173249.png",
+                    "middle": "https://img.tapimg.com/market/images/3d34a833aec22a9a693b9e3ed8311291.png",
+                    "large": "https://img.tapimg.com/market/images/970c38bf43c3c7a749f1200176d2ea29.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1528986782
+            },
+            {
+                "id": 4,
+                "title": "三周年限定徽章",
+                "description": "TapTap三周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/00971473d9f43b71da88517f386015ef.png",
+                    "middle": "https://img.tapimg.com/market/images/b0d9325c9b6a6374388ebaba385c8278.png",
+                    "large": "https://img.tapimg.com/market/images/44eff38138e17f4813aab9a1503411c4.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1555517016
+            },
+            {
+                "id": 5,
+                "title": "TARARA生日徽章",
+                "description": "参与TARARA生日限定活动获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/13010e2b5dcae60b1b893665bc339627.png",
+                    "middle": "https://img.tapimg.com/market/images/c3bac01de375e6f5078aab9ecb49cca4.png",
+                    "large": "https://img.tapimg.com/market/images/c444547dfaf1d0a21a9e921140aeb180.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1573266810
+            },
+            {
+                "id": 11,
+                "title": "《原神》首发徽章",
+                "description": "预约《原神》获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/4f5bd3b12db8c2f9dc0b3b753ddc5739.png",
+                    "middle": "https://img.tapimg.com/market/images/f41ab9aeee4ee14a08c1a0efd20a2eaf.png",
+                    "large": "https://img.tapimg.com/market/images/f10eeb3b35b657f40e3ae9e5dce23fd0.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1601278038
+            },
+            {
+                "id": 12,
+                "title": "2020 大赏徽章",
+                "description": "参与TapTap年度游戏大赏获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/97c27c81af0ef68d815d12f539fcda02.png",
+                    "middle": "https://img.tapimg.com/market/images/870c22b6416b0cbb220904b0118d9e3a.png",
+                    "large": "https://img.tapimg.com/market/images/c082826ca2b9bf56406a04f36d4a8427.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1611836153
+            },
+            {
+                "id": 17,
+                "title": "2021 大赏徽章",
+                "description": "参与 TapTap 年度游戏大赏获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/9b9e148eee36cc11bc8194d9bd6ef3e0.png",
+                    "middle": "https://img.tapimg.com/market/images/fd14967ea39a8cea5585959fbc14c17b.png",
+                    "large": "https://img.tapimg.com/market/images/3416a00ba4201ba0fff651a14f6428ed.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1642254018
+            }
+        ],
+        "stat": {
+            "fans_count": 30,
+            "following_count": 68,
+            "following_developer_count": 17,
+            "following_app_count": 363,
+            "following_console_game_app_count": 0,
+            "following_group_count": 1,
+            "favorite_app_count": 56,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 1,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 568,
+            "votefunny_count": 132,
+            "reserved_count": 674,
+            "reserved_ios_count": 0,
+            "reserved_android_count": 674,
+            "played_count": 1366,
+            "cloud_game_played_count": 5,
+            "spent_tips": "1952 小時",
+            "played_spent": 7030740,
+            "created_topic_count": 10,
+            "created_post_count": 102,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 134,
+            "created_moment_count": 1,
+            "badges_count": 8,
+            "forum_count": 216,
+            "history_app_count": 100,
+            "history_topic_count": 100,
+            "history_video_count": 100,
+            "created_days": 2072,
+            "reserved_total_count": 674
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/9256",
+            "title": "200bear的个人主页 - TapTap 发现好游戏",
+            "description": "怠惰と狂気の支配者—穆斯塔法.两百 来自百度后宫动漫吧   ",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/dd5998cce30d3c0259c26483f493f9cb.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/dd5998cce30d3c0259c26483f493f9cb.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/dd5998cce30d3c0259c26483f493f9cb.png",
+                "original_format": "png",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "9256"
+            }
+        },
+        "background": {
+            "image": {
+                "url": "https://img3.tapimg.com/backgrounds/etag/Fs2hrqRrIXDcybffr-9eNQJI-GX4.png?imageView2/2/w/1000/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/backgrounds/etag/Fs2hrqRrIXDcybffr-9eNQJI-GX4.png?imageView2/2/w/1000/h/9999/q/40/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/backgrounds/etag/Fs2hrqRrIXDcybffr-9eNQJI-GX4.png",
+                "original_format": "png",
+                "width": 1080,
+                "height": 899,
+                "color": "0x947789",
+                "original_size": 1101342
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9256,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9256,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9256,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 9256,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

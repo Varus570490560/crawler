@@ -1,0 +1,194 @@
+{
+    "success": true,
+    "data": {
+        "id": 9937,
+        "name": "佛系玩者",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/4d91f8384edc68c201db79d81e8364a8.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/4d91f8384edc68c201db79d81e8364a8.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "佛系玩者",
+        "gender": "male",
+        "country": "CN",
+        "intro": "一句话",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "birthday": {
+            "year": "1995",
+            "month": "1",
+            "day": "5"
+        },
+        "badges": [
+            {
+                "id": 7,
+                "title": "2019 大赏徽章",
+                "description": "参与年度大赏活动获得",
+                "is_wear": true,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/2d3ae4df4315fd6c8bb2ed12c87efef7.png",
+                    "middle": "https://img.tapimg.com/market/images/7667c3bea113daa058c273f160b9feed.png",
+                    "large": "https://img.tapimg.com/market/images/e300b356ad69c608a1ee7d5c7ff867a5.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1578051495
+            },
+            {
+                "id": 1,
+                "title": "两周年限定徽章",
+                "description": "TapTap两周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/11e1ed6daa41e4930364082e28173249.png",
+                    "middle": "https://img.tapimg.com/market/images/3d34a833aec22a9a693b9e3ed8311291.png",
+                    "large": "https://img.tapimg.com/market/images/970c38bf43c3c7a749f1200176d2ea29.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1528989158
+            },
+            {
+                "id": 5,
+                "title": "TARARA生日徽章",
+                "description": "参与TARARA生日限定活动获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/13010e2b5dcae60b1b893665bc339627.png",
+                    "middle": "https://img.tapimg.com/market/images/c3bac01de375e6f5078aab9ecb49cca4.png",
+                    "large": "https://img.tapimg.com/market/images/c444547dfaf1d0a21a9e921140aeb180.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1573259359
+            },
+            {
+                "id": 11,
+                "title": "《原神》首发徽章",
+                "description": "预约《原神》获得",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/4f5bd3b12db8c2f9dc0b3b753ddc5739.png",
+                    "middle": "https://img.tapimg.com/market/images/f41ab9aeee4ee14a08c1a0efd20a2eaf.png",
+                    "large": "https://img.tapimg.com/market/images/f10eeb3b35b657f40e3ae9e5dce23fd0.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1601280573
+            }
+        ],
+        "stat": {
+            "fans_count": 9,
+            "following_count": 2,
+            "following_developer_count": 0,
+            "following_app_count": 71,
+            "following_console_game_app_count": 0,
+            "following_group_count": 1,
+            "favorite_app_count": 0,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 0,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 353,
+            "votefunny_count": 17,
+            "reserved_count": 32,
+            "reserved_ios_count": 0,
+            "reserved_android_count": 32,
+            "played_count": 588,
+            "cloud_game_played_count": 4,
+            "spent_tips": "1882 小時",
+            "played_spent": 6778620,
+            "created_topic_count": 34,
+            "created_post_count": 84,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 33,
+            "created_moment_count": 0,
+            "badges_count": 4,
+            "forum_count": 71,
+            "history_app_count": 100,
+            "history_topic_count": 100,
+            "history_video_count": 100,
+            "created_days": 2068,
+            "reserved_total_count": 32
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/9937",
+            "title": "佛系玩者的个人主页 - TapTap 发现好游戏",
+            "description": "一句话",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/4d91f8384edc68c201db79d81e8364a8.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/4d91f8384edc68c201db79d81e8364a8.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/4d91f8384edc68c201db79d81e8364a8.png",
+                "original_format": "png",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "9937"
+            }
+        },
+        "background": {
+            "image": {
+                "url": "https://img3.tapimg.com/backgrounds/etag/FuOpWSLYYpR68CzjntzumJ4l0tc3.png?imageView2/2/w/1000/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/backgrounds/etag/FuOpWSLYYpR68CzjntzumJ4l0tc3.png?imageView2/2/w/1000/h/9999/q/40/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/backgrounds/etag/FuOpWSLYYpR68CzjntzumJ4l0tc3.png",
+                "original_format": "png",
+                "width": 1080,
+                "height": 899,
+                "color": "0x667970",
+                "original_size": 1348915
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9937,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9937,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9937,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 9937,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

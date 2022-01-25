@@ -1,0 +1,131 @@
+{
+    "success": true,
+    "data": {
+        "id": 9291,
+        "name": "Baby無齒",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/3f6325decdf4b501a5dc21433efd0c0e.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/3f6325decdf4b501a5dc21433efd0c0e.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "Baby無齒",
+        "gender": "male",
+        "country": "CN",
+        "intro": "死宅团员一枚",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "birthday": {
+            "year": "1997",
+            "month": "8",
+            "day": "1"
+        },
+        "badges": [
+            {
+                "id": 1,
+                "title": "两周年限定徽章",
+                "description": "TapTap两周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/11e1ed6daa41e4930364082e28173249.png",
+                    "middle": "https://img.tapimg.com/market/images/3d34a833aec22a9a693b9e3ed8311291.png",
+                    "large": "https://img.tapimg.com/market/images/970c38bf43c3c7a749f1200176d2ea29.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1529815442
+            }
+        ],
+        "stat": {
+            "fans_count": 4,
+            "following_count": 3,
+            "following_developer_count": 1,
+            "following_app_count": 220,
+            "following_console_game_app_count": 0,
+            "following_group_count": 0,
+            "favorite_app_count": 1,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 2,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 210,
+            "votefunny_count": 19,
+            "reserved_count": 2,
+            "reserved_ios_count": 0,
+            "reserved_android_count": 2,
+            "played_count": 233,
+            "cloud_game_played_count": 0,
+            "spent_tips": "102 小時",
+            "played_spent": 370620,
+            "created_topic_count": 2,
+            "created_post_count": 23,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 12,
+            "created_moment_count": 0,
+            "badges_count": 1,
+            "forum_count": 22,
+            "history_app_count": 100,
+            "history_topic_count": 18,
+            "history_video_count": 13,
+            "created_days": 2072,
+            "reserved_total_count": 2
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/9291",
+            "title": "Baby無齒的个人主页 - TapTap 发现好游戏",
+            "description": "死宅团员一枚",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/3f6325decdf4b501a5dc21433efd0c0e.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/3f6325decdf4b501a5dc21433efd0c0e.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/3f6325decdf4b501a5dc21433efd0c0e.jpg",
+                "original_format": "jpg",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "9291"
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9291,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9291,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9291,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 9291,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

@@ -76,7 +76,7 @@ def crawling_by_app_id(app_id: int, comment_url, is_print, app_name=""):
             timer.start()
             response = requests.get(url=comment_url, params=param, headers=headers)
             timer.cancel()
-        except (TimeoutError, requests.exceptions.SSLError) as e:
+        except (time_out_exception.TimeOutError, requests.exceptions.SSLError) as e:
             print(e)
             print('There is a exception,Let me have a rest....')
             print('zzzZZ')

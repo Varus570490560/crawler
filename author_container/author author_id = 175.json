@@ -1,0 +1,160 @@
+{
+    "success": true,
+    "data": {
+        "id": 175,
+        "name": "看不见 看不见",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/f835afd8639b652c7e75ecbfe369aa0e.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/f835afd8639b652c7e75ecbfe369aa0e.png?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "看不见 看不见",
+        "gender": "male",
+        "country": "CN",
+        "intro": "",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "birthday": {
+            "year": "1996",
+            "month": "11",
+            "day": "20"
+        },
+        "badges": [
+            {
+                "id": 1,
+                "title": "两周年限定徽章",
+                "description": "TapTap两周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/11e1ed6daa41e4930364082e28173249.png",
+                    "middle": "https://img.tapimg.com/market/images/3d34a833aec22a9a693b9e3ed8311291.png",
+                    "large": "https://img.tapimg.com/market/images/970c38bf43c3c7a749f1200176d2ea29.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1528990106
+            },
+            {
+                "id": 9,
+                "title": "四周年限定徽章",
+                "description": "TapTap四周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/be6cd52c57320cc7a157b55f389ca8e7.png",
+                    "middle": "https://img.tapimg.com/market/images/692a8fafba30cb2207a477f93874f1c4.png",
+                    "large": "https://img.tapimg.com/market/images/8dea138add083d9fc3f84b4dc7e94c3b.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1587111690
+            }
+        ],
+        "stat": {
+            "fans_count": 2,
+            "following_count": 11,
+            "following_developer_count": 13,
+            "following_app_count": 120,
+            "following_console_game_app_count": 0,
+            "following_group_count": 0,
+            "favorite_app_count": 27,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 7,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 58,
+            "votefunny_count": 0,
+            "reserved_count": 112,
+            "reserved_ios_count": 20,
+            "reserved_android_count": 112,
+            "played_count": 647,
+            "cloud_game_played_count": 0,
+            "spent_tips": "1769 小時",
+            "played_spent": 6370440,
+            "created_topic_count": 2,
+            "created_post_count": 42,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 17,
+            "created_moment_count": 0,
+            "badges_count": 2,
+            "forum_count": 33,
+            "history_app_count": 100,
+            "history_topic_count": 100,
+            "history_video_count": 100,
+            "created_days": 2098,
+            "reserved_total_count": 131
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/175",
+            "title": "看不见 看不见的个人主页 - TapTap 发现好游戏",
+            "description": "",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/f835afd8639b652c7e75ecbfe369aa0e.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/f835afd8639b652c7e75ecbfe369aa0e.png?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/f835afd8639b652c7e75ecbfe369aa0e.png",
+                "original_format": "png",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "175"
+            }
+        },
+        "background": {
+            "image": {
+                "url": "https://img3.tapimg.com/backgrounds/etag/Fi19nPIQ7MHXS-me-2Vl707HHLmd.png?imageView2/2/w/1000/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/backgrounds/etag/Fi19nPIQ7MHXS-me-2Vl707HHLmd.png?imageView2/2/w/1000/h/9999/q/40/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/backgrounds/etag/Fi19nPIQ7MHXS-me-2Vl707HHLmd.png",
+                "original_format": "png",
+                "width": 1440,
+                "height": 1200,
+                "color": "0x424364",
+                "original_size": 1293214
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 175,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 175,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 175,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 175,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

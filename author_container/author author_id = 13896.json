@@ -1,0 +1,107 @@
+{
+    "success": true,
+    "data": {
+        "id": 13896,
+        "name": "Leon",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/e988f806b8207b3dbe8b3216550fae83.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/e988f806b8207b3dbe8b3216550fae83.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "Leon",
+        "gender": "",
+        "country": "CN",
+        "intro": "",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "stat": {
+            "fans_count": 1,
+            "following_count": 0,
+            "following_developer_count": 1,
+            "following_app_count": 328,
+            "following_console_game_app_count": 0,
+            "following_group_count": 0,
+            "favorite_app_count": 0,
+            "favorite_event_count": 0,
+            "favorite_topic_count": 0,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 74,
+            "votefunny_count": 11,
+            "reserved_count": 15,
+            "reserved_ios_count": 27,
+            "reserved_android_count": 15,
+            "played_count": 328,
+            "cloud_game_played_count": 0,
+            "spent_tips": "5 小時",
+            "played_spent": 19500,
+            "created_topic_count": 0,
+            "created_post_count": 0,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 19,
+            "created_moment_count": 0,
+            "badges_count": 0,
+            "forum_count": 21,
+            "history_app_count": 0,
+            "history_topic_count": 0,
+            "history_video_count": 0,
+            "created_days": 2061,
+            "reserved_total_count": 39
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/13896",
+            "title": "Leon的个人主页 - TapTap 发现好游戏",
+            "description": "",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/e988f806b8207b3dbe8b3216550fae83.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/e988f806b8207b3dbe8b3216550fae83.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/e988f806b8207b3dbe8b3216550fae83.jpg",
+                "original_format": "jpg",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "13896"
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 13896,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 13896,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 13896,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 13896,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "success": true,
+    "data": {
+        "id": 9314,
+        "name": "思兼",
+        "exam_passed": true,
+        "show_etiquette": false,
+        "avatar": "https://img3.tapimg.com/avatars/9aec7fb24db8760b5cc46a42020b8458.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/80",
+        "medium_avatar": "https://img3.tapimg.com/avatars/9aec7fb24db8760b5cc46a42020b8458.jpg?imageMogr2/auto-orient/strip/thumbnail/!300x300r/gravity/Center/crop/300x300/format/jpg/interlace/1/quality/40",
+        "nickname": "思兼",
+        "gender": "male",
+        "country": "HK",
+        "intro": "",
+        "loc": "HK",
+        "store": "cn",
+        "language": "zh_TW",
+        "is_deactivated": false,
+        "is_deleted": false,
+        "is_silent": false,
+        "birthday": {
+            "year": "1995",
+            "month": "10",
+            "day": "22"
+        },
+        "badges": [
+            {
+                "id": 5,
+                "title": "TARARA生日徽章",
+                "description": "参与TARARA生日限定活动获得",
+                "is_wear": true,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/13010e2b5dcae60b1b893665bc339627.png",
+                    "middle": "https://img.tapimg.com/market/images/c3bac01de375e6f5078aab9ecb49cca4.png",
+                    "large": "https://img.tapimg.com/market/images/c444547dfaf1d0a21a9e921140aeb180.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1573293007
+            },
+            {
+                "id": 13,
+                "title": "五周年限定徽章",
+                "description": "TapTap五周年，我们在一起",
+                "is_wear": false,
+                "icon": {
+                    "small": "https://img.tapimg.com/market/images/5b97c47e36984c5b0f054cc6f4e656de.png",
+                    "middle": "https://img.tapimg.com/market/images/3129ce64b66799aa4b123adb25707e24.png",
+                    "large": "https://img.tapimg.com/market/images/eb272cb0a864e39c0b7d7b1ae3e30e40.png"
+                },
+                "style": {
+                    "background_image": "https://img.tapimg.com/market/images/27be4a8ce4a2f6919faaa2deb98c4d5d.png",
+                    "background_color": "0x41808A",
+                    "font_color": "0xffffff"
+                },
+                "time": 1619145998
+            }
+        ],
+        "stat": {
+            "fans_count": 3,
+            "following_count": 7,
+            "following_developer_count": 13,
+            "following_app_count": 197,
+            "following_console_game_app_count": 0,
+            "following_group_count": 1,
+            "favorite_app_count": 5,
+            "favorite_event_count": 1,
+            "favorite_topic_count": 6,
+            "favorite_video_count": 0,
+            "favorite_story_count": 0,
+            "voteup_count": 25,
+            "votefunny_count": 3,
+            "reserved_count": 92,
+            "reserved_ios_count": 0,
+            "reserved_android_count": 92,
+            "played_count": 107,
+            "cloud_game_played_count": 1,
+            "spent_tips": "2000+ 小時",
+            "played_spent": 20824620,
+            "created_topic_count": 0,
+            "created_post_count": 19,
+            "created_video_count": 0,
+            "created_album_count": 0,
+            "created_story_count": 0,
+            "created_review_count": 11,
+            "created_moment_count": 4,
+            "badges_count": 2,
+            "forum_count": 21,
+            "history_app_count": 100,
+            "history_topic_count": 100,
+            "history_video_count": 14,
+            "created_days": 2072,
+            "reserved_total_count": 92
+        },
+        "sharing": {
+            "url": "https://www.taptap.com/user/9314",
+            "title": "思兼的个人主页 - TapTap 发现好游戏",
+            "description": "",
+            "image": {
+                "url": "https://img3.tapimg.com/avatars/9aec7fb24db8760b5cc46a42020b8458.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/avatars/9aec7fb24db8760b5cc46a42020b8458.jpg?imageView2/2/w/800/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/avatars/9aec7fb24db8760b5cc46a42020b8458.jpg",
+                "original_format": "jpg",
+                "color": "0xffffff"
+            },
+            "message_params": {
+                "obj_type": "user",
+                "obj_id": "9314"
+            }
+        },
+        "background": {
+            "image": {
+                "url": "https://img3.tapimg.com/backgrounds/etag/FjsTN04KxREJGGFOM77sZXb3ggk7.png?imageView2/2/w/1000/h/9999/q/80/format/jpg/interlace/1/ignore-error/1",
+                "medium_url": "https://img3.tapimg.com/backgrounds/etag/FjsTN04KxREJGGFOM77sZXb3ggk7.png?imageView2/2/w/1000/h/9999/q/40/format/jpg/interlace/1/ignore-error/1",
+                "original_url": "https://img3.tapimg.com/backgrounds/etag/FjsTN04KxREJGGFOM77sZXb3ggk7.png",
+                "original_format": "png",
+                "width": 1080,
+                "height": 899,
+                "color": "0x975661",
+                "original_size": 1854664
+            }
+        },
+        "log": {
+            "page_view": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "pageView",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9314,
+                    "paramType": "userDetail"
+                }
+            },
+            "follow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "follow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9314,
+                    "paramType": "userDetail"
+                }
+            },
+            "unfollow": {
+                "web_url": "https://tap-snow.cn-beijing.log.aliyuncs.com/logstores/logs/track.gif",
+                "params": {
+                    "type": "unfollow",
+                    "APIVersion": "0.6.0",
+                    "paramId": 9314,
+                    "paramType": "userDetail"
+                }
+            }
+        },
+        "event_log": {
+            "paramId": 9314,
+            "paramType": "userDetail",
+            "via": ""
+        }
+    }
+}
