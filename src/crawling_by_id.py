@@ -1,8 +1,11 @@
+import threading
 from typing import Any
 
 import requests
 import json
 import os
+
+from src import time_out_exception
 
 
 def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int, app_name=""):
@@ -50,6 +53,7 @@ def crawling_by_app_id_auto_increment(app_id_begin: int, app_id_end: int, app_na
 
 
 def crawling_by_app_id(app_id: int, comment_url, is_print, app_name=""):
+    response = None
     if app_name != "":
         app_name = " " + app_name
     param_app_id = app_id
@@ -67,7 +71,16 @@ def crawling_by_app_id(app_id: int, comment_url, is_print, app_name=""):
             'from': str(param_from),
             'X-UA': 'V=1&PN=WebAppIntl&LANG=zh_TW&VN_CODE=59&VN=0.1.0&LOC=CN&PLT=PC&DS=Android&UID=22a3964e-db21-41a2-852d-f30283cda0f3&VID=434092598&DT=PC'
         }
-        response = requests.get(url=comment_url, params=param, headers=headers)
+        try:
+            timer = threading.Timer(5, time_out_exception.throw_time_out_error,
+                                    'requests get comment timeout')
+            timer.start()
+            response = requests.get(url=comment_url, params=param, headers=headers)
+            timer.cancel()
+        except TimeoutError as e:
+            print(e)
+        if response is None:
+            return None
         response_json = response.json()
         response_jsons.append(response_json)
         try:

@@ -1,11 +1,14 @@
 import json
+import threading
 
 import requests
 import analysis
 import connect_mysql
+from src import time_out_exception
 
 
 def crawling_author_by_id(author_id, is_print, author_url):
+    response = None
     params = {
         'id': str(author_id),
         'X-UA': 'V=1&PN=WebAppIntl&LANG=zh_TW&VN_CODE=59&VN=0.1.0&LOC=CN&PLT=PC&DS=Android&UID=22a3964e-db21-41a2-852d-f30283cda0f3&VID=434092598&DT=PC'
@@ -13,7 +16,16 @@ def crawling_author_by_id(author_id, is_print, author_url):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 '
     }
-    response = requests.get(url=author_url, params=params, headers=headers)
+    try:
+        timer = threading.Timer(5, time_out_exception.throw_time_out_error,
+                                'requests get comment timeout')
+        timer.start()
+        response = requests.get(url=author_url, params=params, headers=headers)
+        timer.cancel()
+    except TimeoutError as e:
+        print(e)
+    if response is None:
+        return None
     response_json = response.json()
     if is_print:
         file_name = './author_container/author author_id = ' + str(author_id) + '.json'
