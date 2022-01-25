@@ -1,7 +1,7 @@
 craw_comment_com:
 	python ./src/main_crawling_comment.py com
 craw_comment_io:
-	python ./src/main_crawling_comment.py io
+	python3 ./src/main_crawling_comment.py io
 craw_sub_comment_com:
 	python ./src/main_crawling_sub_comment.py com
 craw_sub_comment_io:

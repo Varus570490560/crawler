@@ -4,7 +4,7 @@ import threading
 import requests
 import analysis
 import connect_mysql
-from src import time_out_exception
+import time_out_exception
 
 
 def crawling_author_by_id(author_id, is_print, author_url):
@@ -17,8 +17,7 @@ def crawling_author_by_id(author_id, is_print, author_url):
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 '
     }
     try:
-        timer = threading.Timer(20, time_out_exception.throw_time_out_error,
-                                'requests get comment timeout')
+        timer = threading.Timer(20, time_out_exception.throw_time_out_error)
         timer.start()
         response = requests.get(url=author_url, params=params, headers=headers)
         timer.cancel()
@@ -38,5 +37,10 @@ def crawling_author_by_id(author_id, is_print, author_url):
 def crawling_author_by_ids(author_ids, is_print, db, author_url):
     for author_id in author_ids:
         response_json = crawling_author_by_id(author_id[0], is_print, author_url=author_url)
-        response_tuple = analysis.analysis_author_json_to_tuple(response_json)
-        connect_mysql.insert_author(db, response_tuple)
+        try:
+            response_tuple = analysis.analysis_author_json_to_tuple(response_json)
+            connect_mysql.insert_author(db, response_tuple)
+        except KeyError as e:
+            print(e)
+        finally:
+            continue

@@ -20,8 +20,7 @@ def search_for_id_and_package_by_name(app_name: string, search_url):
         'X-UA': param_xua
     }
     try:
-        timer = threading.Timer(20, time_out_exception.throw_time_out_error,
-                                'requests get search timeout')
+        timer = threading.Timer(20, time_out_exception.throw_time_out_error)
         timer.start()
         response = requests.get(url=search_url, params=params, headers=headers)
         timer.cancel()

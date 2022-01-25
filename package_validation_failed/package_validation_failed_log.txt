@@ -18,3 +18,161 @@ app_name: Cookie Carver: Life Challenge
  need: com.games.cookiecarver
  found: None
 
+key_word: Dream League Soccer 2021search failed
+
+app_name: Race Master 3D
+ need: com.easygames.race
+ found: None
+
+app_name: Terraria
+ need: com.and.games505.TerrariaPaid
+ found: com.xd.terraria
+
+key_word: Grand Theft Auto V - Prologuesearch failed
+
+key_word: 1945 Air Forcesearch failed
+
+key_word: 456 Survival Challengesearch failed
+
+app_name: 60 Seconds! Atomic Adventure
+ need: com.robotgentleman.game60seconds
+ found: com.east2west.game60seconds
+
+app_name: 6ix9ine Runner
+ need: com.game.jam.beat.saber.six.nine.music
+ found: None
+
+app_name: 9 Months
+ need: com.gpg.ninemonths
+ found: None
+
+app_name: 9th Dawn III RPG
+ need: com.valorware.ninthdawniii
+ found: com.valorware.ninthdawniiifreedemo
+
+key_word: A Stranger Placesearch failed
+
+key_word: Abyss: Rebirth Phantomsearch failed
+
+app_name: AdVenture Ages
+ need: ca.hyperhippo.adventureages
+ found: None
+
+key_word: AdVenture Capitalistsearch failed
+
+key_word: AdVenture Communistsearch failed
+
+app_name: Aerofly FS 2020
+ need: com.aerofly.aeroflyfs2020
+ found: None
+
+key_word: Aerofly FS 2021search failed
+
+app_name: AFK Arena
+ need: com.lilithgame.hgame.gp
+ found: com.lilithgame.hgame.gp.tw
+
+key_word: After School Girlfriendsearch failed
+
+app_name: Agent A: A puzzle in disguise
+ need: co.yakand.agentaapuzzleindisguise
+ found: co.yakand.taptap.agentaapuzzleindisguise
+
+app_name: Airplane Chefs
+ need: com.nordcurrent.flyingfever
+ found: None
+
+key_word: Akinator VIPsearch failed
+
+app_name: Albion Online
+ need: com.albiononline
+ found: com.sandboxinteractive.albiononline
+
+app_name: Alchemy Stars
+ need: com.tencent.baiyeint
+ found: com.gamamobi.baiyehmt
+
+key_word: Alto’s Adventuresearch failed
+
+app_name: Alto’s Odyssey
+ need: com.noodlecake.altosodyssey
+ found: None
+
+app_name: Angry Bee Evolution
+ need: com.Toolbex.BeeEvo
+ found: com.rovio.tnt
+
+key_word: Angry Birds Go!search failed
+
+key_word: Anime High School Girl Life 3Dsearch failed
+
+app_name: Anime School Girl Life
+ need: com.lmg.sakura.anime.high.school.girl.life.simulator
+ found: com.cfg.anime.high.school.life
+
+app_name: Anime School Girl Life
+ need: com.dimitri4g.anime.school.girl.life.japanese.school.simulator
+ found: com.cfg.anime.high.school.life
+
+key_word: Anime Studio Storysearch failed
+
+key_word: Anime: The Multiverse Warsearch failed
+
+app_name: Animus: Revenant
+ need: com.tenbirds.animus3
+ found: None
+
+app_name: Another Eden
+ need: games.wfs.anothereden
+ found: net.wrightflyer.anothereden
+
+key_word: Anti-Terrorist Shooting Mission 2020search failed
+
+app_name: Antihero
+ need: com.versusevil.antiherogame
+ found: None
+
+app_name: Apex Legends Mobile
+ need: com.ea.gp.apexlegendsmobilefps
+ found: com.ea.gp.apexlegendsmobilefps1
+
+app_name: Aquapark.io
+ need: com.cassette.aquapark
+ found: com.ffkan.slide
+
+app_name: Archer Hunter
+ need: co.imba.archero
+ found: com.covetech.deer.archer.hunter.free.game
+
+app_name: Arena Of Valor
+ need: com.garena.game.kgid
+ found: com.tencent.ngjp
+
+app_name: Arena Of Valor
+ need: com.ngame.allstar.eu
+ found: com.tencent.ngjp
+
+key_word: Arrow Warsearch failed
+
+app_name: Ashworld
+ need: com.orangepixel.ashworld
+ found: None
+
+key_word: Assassin’s Creed Rebellionsearch failed
+
+key_word: Auto Battles Onlinesearch failed
+
+app_name: Auto Theft Gangsters
+ need: com.doodlemobile.vicecity
+ found: com.rockstargames.gtalcs
+
+key_word: Baby Manorsearch failed
+
+app_name: Bad Piggies
+ need: com.rovio.BadPiggiesHD
+ found: com.rovio.BadPiggies
+
+app_name: BADLAND
+ need: com.frogmind.badland
+ found: com.frogmind.badland2.cmcm
+
