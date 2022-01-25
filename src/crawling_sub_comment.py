@@ -53,7 +53,7 @@ def crawling_sub_comment_by_id(comment_id, is_print, sub_comment_url):
             except KeyError as e:
                 print(e)
                 param_from+=10
-                continue
+                return response_jsons
         else:
             param_from += 10
 

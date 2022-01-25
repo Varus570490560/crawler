@@ -194,3 +194,131 @@ app_name: Battlefield Mobile
  need: 
  found: None
 
+key_word: Beam of Magicsearch failed
+
+key_word: Beastie Baysearch failed
+
+app_name: Beat Shooter
+ need: com.dash.rhythm.dancing.smash.hop.game.tiles.circles.beat.paino
+ found: None
+
+app_name: Beggar Life
+ need: com.manababa.BeggarKing
+ found: com.manababa.BeggarLifeToyStack
+
+app_name: Beholder
+ need: com.creativemobile.beholder
+ found: com.taptap.beholder.freemium
+
+app_name: Beholder 2
+ need: com.alawar.beholder2
+ found: com.alawar.beholder2.taptap
+
+app_name: Best Fiends
+ need: com.Seriously.BestFiends
+ found: None
+
+app_name: Best Fiends Stars
+ need: com.Seriously.Phoenix
+ found: None
+
+app_name: BEYBLADE BURST
+ need: com.hasbro.beybladesenterprise
+ found: com.jegolitouslesapp.utterescom
+
+key_word: Beyond Our Livessearch failed
+
+key_word: Bid Wars 2: Pawn Shopsearch failed
+
+app_name: Home & Garden: Design Makeover
+ need: com.goodgamestudios.bigfarmhomeandgarden
+ found: design.garden.makeover.interior.home.decor
+
+app_name: Billion Builders
+ need: com.fiveminlab.construct
+ found: None
+
+app_name: Birdy Trip
+ need: com.bloop.birdytrip
+ found: None
+
+key_word: Black Border Gamesearch failed
+
+app_name: Black Hole Hero
+ need: com.hgamesart.blackholehero
+ found: black.ironman.stickman.rope.hero.call.gta.pubg.hero.duty
+
+app_name: Blade II: The Return of Evil
+ need: com.kakaogames.blade2
+ found: com.Action2quare.blade2GL
+
+app_name: Blade & Soul 2
+ need: com.ncsoft.bns219
+ found: com.ncsoft.bns2
+
+app_name: Blade & Soul M
+ need: com.netmarble.bnsmkr
+ found: None
+
+app_name: Bless Mobile
+ need: com.joycity.blessmobile
+ found: com.joycity.blessmobile1
+
+app_name: Blind Drive
+ need: com.LoFiPeople.BlindDrive
+ found: None
+
+app_name: Block City Wars
+ need: block.app.wars
+ found: com.ugame.block.wars
+
+app_name: Block Craft 3D
+ need: com.fungames.blockcraft
+ found: com.tinydragonadventuregames.mine.pocket.craft.minecraft.exploration.lite.build.usa.america.ny.city.lunacraft.cube.block.free
+
+app_name: Blockman GO
+ need: com.sandboxol.blockymods
+ found: None
+
+app_name: Blocky Farm
+ need: com.JetToast.BlockyFarm
+ found: com.tg.blockyfarmfieldworkersim
+
+app_name: Bloop Go!
+ need: com.bloop.bloopgo
+ found: None
+
+key_word: Boris and the Dark Survivalsearch failed
+
+app_name: Bouncemasters
+ need: com.playgendary.sportmasters
+ found: com.siyonum.bouncemasterhint
+
+key_word: Boxing Gym Storysearch failed
+
+key_word: ​Brave Frontier IIsearch failed
+
+app_name: Brawl Stars
+ need: daniillnull.nulls.brawlstars
+ found: com.supercell.brawlstars
+
+app_name: Bridge Race
+ need: com.Garawell.BridgeRace
+ found: com.unicorn.impostor.bridge
+
+key_word: Brothers: A Tale of Two Sonssearch failed
+
+app_name: Bubbu
+ need: com.bubadu.bubbu
+ found: com.bubadu.bubbuschool
+
+app_name: Bud Farm: Idle Tycoon
+ need: com.LDRLY.budfarmidletycoon
+ found: com.bud.farm.green.idle.khalifa.hempire
+
+key_word: Burger Bistro Storysearch failed
+
+app_name: Bus Simulator: Original
+ need: com.ovilex.bussimulator2015
+ found: None
+
