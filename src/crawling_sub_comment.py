@@ -34,21 +34,26 @@ def crawling_sub_comment_by_id(comment_id, is_print, sub_comment_url):
         if response is not None:
             response_json = response.json()
             response = None
-            if len(response_json['data']['list']) != 0:
-                response_jsons.append(response_json)
-            if is_print:
-                file_name = './sub_comment_container/sub_comment parent_comment_id = ' + str(
-                    comment_id) + ' from = ' + str(
-                    param_from) + '.json'
-                with open(file_name, 'w', encoding='utf-8') as fp:
-                    json.dump(response_json, fp=fp, ensure_ascii=False, indent=4)
-                print(file_name, "Saved!!!")
+            try:
+                if len(response_json['data']['list']) != 0:
+                    response_jsons.append(response_json)
+                if is_print:
+                    file_name = './sub_comment_container/sub_comment parent_comment_id = ' + str(
+                        comment_id) + ' from = ' + str(
+                        param_from) + '.json'
+                    with open(file_name, 'w', encoding='utf-8') as fp:
+                        json.dump(response_json, fp=fp, ensure_ascii=False, indent=4)
+                    print(file_name, "Saved!!!")
+                    if len(response_json['data']['list']) == 0:
+                        os.remove(file_name)
                 if len(response_json['data']['list']) == 0:
-                    os.remove(file_name)
-            if len(response_json['data']['list']) == 0:
-                return response_jsons
-            else:
-                param_from += 10
+                    return response_jsons
+                else:
+                    param_from += 10
+            except KeyError as e:
+                print(e)
+                param_from+=10
+                continue
         else:
             param_from += 10
 
