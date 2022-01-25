@@ -176,3 +176,21 @@ app_name: BADLAND
  need: com.frogmind.badland
  found: com.frogmind.badland2.cmcm
 
+key_word: Baldur’s Gate: Enhanced Editionsearch failed
+
+key_word: Baldur’s Gate II: Enhanced Editionsearch failed
+
+app_name: BanG Dream! Girls Band Party!
+ need: com.bushiroad.en.bangdreamgbp
+ found: jp.co.craftegg.band
+
+key_word: Baseball 9search failed
+
+app_name: Baseball Boy
+ need: com.itchmedia.ta3
+ found: com.wordconnectgamesfree.baseballboy
+
+app_name: Battlefield Mobile
+ need: 
+ found: None
+

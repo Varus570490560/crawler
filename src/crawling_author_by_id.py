@@ -38,6 +38,8 @@ def crawling_author_by_ids(author_ids, is_print, db, author_url):
     for author_id in author_ids:
         response_json = crawling_author_by_id(author_id[0], is_print, author_url=author_url)
         try:
+            if response_json is None:
+                continue
             response_tuple = analysis.analysis_author_json_to_tuple(response_json)
             connect_mysql.insert_author(db, response_tuple)
         except KeyError as e:
