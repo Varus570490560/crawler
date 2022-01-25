@@ -1,5 +1,4 @@
 import threading
-from typing import Any
 
 import requests
 import json
@@ -72,33 +71,32 @@ def crawling_by_app_id(app_id: int, comment_url, is_print, app_name=""):
             'X-UA': 'V=1&PN=WebAppIntl&LANG=zh_TW&VN_CODE=59&VN=0.1.0&LOC=CN&PLT=PC&DS=Android&UID=22a3964e-db21-41a2-852d-f30283cda0f3&VID=434092598&DT=PC'
         }
         try:
-            timer = threading.Timer(5, time_out_exception.throw_time_out_error,
+            timer = threading.Timer(20, time_out_exception.throw_time_out_error,
                                     'requests get comment timeout')
             timer.start()
             response = requests.get(url=comment_url, params=param, headers=headers)
             timer.cancel()
         except TimeoutError as e:
             print(e)
-        if response is None:
-            return None
-        response_json = response.json()
-        response_jsons.append(response_json)
-        try:
-            if len(response_json['data']['list']) != 0:
-                response_jsons.append(response_json)
-                print('get app_name =' + app_name + ' from = ' + str(param_from) + ' successfully!!!')
-            if is_print:
-                file_name = './comment_container/comment app_name =' + app_name + ' from = ' + str(
-                    param_from) + '.json'
-                with open(file_name, 'w', encoding='utf-8') as fp:
-                    json.dump(response_json, fp=fp, ensure_ascii=False, indent=4)
-                print(file_name, "Saved!!!")
+        if response is not None:
+            response_json = response.json()
+            response_jsons.append(response_json)
+            try:
+                if len(response_json['data']['list']) != 0:
+                    response_jsons.append(response_json)
+                    print('get app_name =' + app_name + ' from = ' + str(param_from) + ' successfully!!!')
+                if is_print:
+                    file_name = './comment_container/comment app_name =' + app_name + ' from = ' + str(
+                        param_from) + '.json'
+                    with open(file_name, 'w', encoding='utf-8') as fp:
+                        json.dump(response_json, fp=fp, ensure_ascii=False, indent=4)
+                    print(file_name, "Saved!!!")
+                    if len(response_json['data']['list']) == 0:
+                        os.remove(file_name)
                 if len(response_json['data']['list']) == 0:
-                    os.remove(file_name)
-            if len(response_json['data']['list']) == 0:
+                    return response_jsons
+                else:
+                    param_from += 10
+            except KeyError as e:
+                print(e)
                 return response_jsons
-            else:
-                param_from += 10
-        except KeyError as e:
-            print(e)
-            return response_jsons

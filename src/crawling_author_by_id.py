@@ -17,7 +17,7 @@ def crawling_author_by_id(author_id, is_print, author_url):
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 '
     }
     try:
-        timer = threading.Timer(5, time_out_exception.throw_time_out_error,
+        timer = threading.Timer(20, time_out_exception.throw_time_out_error,
                                 'requests get comment timeout')
         timer.start()
         response = requests.get(url=author_url, params=params, headers=headers)
