@@ -115,3 +115,19 @@ def select_app_id_from_game_comment_1():
     db.close()
     return res
 
+
+def select_icon_url_from_author():
+    try:
+        db = pymysql.connect(host='localhost', user='root', password='', port=3306, database='game_comment')
+        print('源数据库连接成功')
+    except pymysql.Error as e:
+        print('源数据库连接失败', e)
+        return None
+    cur = db.cursor()
+    cur.execute(
+        "SELECT `name`,`icon_url` FROM `author`;")
+    res = cur.fetchall()
+    cur.close()
+    db.close()
+    return res
+
