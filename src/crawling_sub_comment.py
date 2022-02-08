@@ -1,6 +1,7 @@
 import json
 import os
 import threading
+from time import sleep
 
 import requests
 import analysis
@@ -55,7 +56,7 @@ def crawling_sub_comment_by_id(comment_id, is_print, sub_comment_url):
                     param_from += 10
             except KeyError as e:
                 print(e)
-                param_from+=10
+                param_from += 10
                 return response_jsons
         else:
             param_from += 10
@@ -74,3 +75,4 @@ def crawling_sub_comment_by_ids_and_app_ids(ids_and_app_ids, is_print, db, sub_c
                 print(e)
             finally:
                 continue
+        connect_mysql.update_game_comment_1_sub_comment_count(db=db, game_comment_1_id=id_and_app_id[0])

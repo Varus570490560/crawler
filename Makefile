@@ -8,7 +8,7 @@ craw_sub_comment_io:
 	python ./src/main_crawling_sub_comment.py io
 craw_author_com:
 	python ./src/main_crawling_author.py com
-raw_author_io:
+craw_author_io:
 	python ./src/main_crawling_author.py io
 clear_comment_container:
 	rm -f ./comment_container/*

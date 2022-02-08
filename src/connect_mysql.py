@@ -53,7 +53,7 @@ def select_comment_id_app_id():
         return None
     cur = db.cursor()
     cur.execute(
-        "SELECT id,app_id FROM game_comment_1;")
+        "SELECT id,app_id FROM game_comment_1 WHERE `sub_comment` = -1;")
     res = cur.fetchall()
     cur.close()
     db.close()
@@ -81,7 +81,7 @@ def select_author_id():
         return None
     cur = db.cursor()
     cur.execute(
-        "SELECT distinct author_id FROM game_comment_1 UNION select distinct author_id FROM game_comment_2;")
+        "select `author_id` FROM (select distinct author_id from game_comment_1 union select distinct `author_id` from `game_comment_2`)as a where author_id not in (select id as author_id from author) ;")
     res = cur.fetchall()
     cur.close()
     db.close()
@@ -131,3 +131,12 @@ def select_icon_url_from_author():
     db.close()
     return res
 
+
+def update_game_comment_1_sub_comment_count(db, game_comment_1_id):
+    with db.cursor() as cursor:
+        try:
+            cursor.execute(
+                'UPDATE `game_comment_1` SET `sub_comment`=1 WHERE `id` = %s;', game_comment_1_id)
+            print(game_comment_1_id, " all sub comment deal successfully!!!")
+        except pymysql.Error as err:
+            print(err)
