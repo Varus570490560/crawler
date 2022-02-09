@@ -1,248 +1,1836 @@
-key_word: [Installer] Otogisearch failed
+key_word: Cafeland – World Kitchensearch failed
 
-key_word: [Installer] Arena of Valorsearch failed
+app_name: Apex Legends Mobile
+ need: com.ea.gp.apexlegendsmobilefps
+ found: com.ea.gp.apexlegendsmobilefps1
 
-key_word: [Installer] Arena of Valorsearch failed
+key_word: High Sea Sagasearch failed
 
-key_word: [Installer] My Bakery Empiresearch failed
-
-key_word: [Installer] Armed Heistsearch failed
-
-key_word: [Installer] The Sun Originsearch fakey_word: KineMaster Prosearch failed
-
-app_name: Pou
- need: me.pou.app
- found: me.pou.app2
-
-app_name: Dashero
- need: com.trefle.dashero
- found: com.LKAIROS.DashHero
-
-key_word: CapCutsearch failed
-
-app_name: OPUS: Rocket of Whispers
- need: com.sigono.heaven01
- found: com.sigono.heaven01.TapTap
-
-room adventuries
- need: com.sharfik.todiandloli
+app_name: Human: Fall Flat
+ need: com.and.games505.humanfallflat
  found: None
 
-app_name: Space War
- need: com.shmup.retroshooter
- found: com.spacewarr
+app_name: West Gunfighter
+ need: com.cg.cowboy
+ found: com.itc.west.winter.cowboy.games
 
-key_word: Orbigo - Red Roller Orbsearch failed
+key_word: RPG Blacksmith of the Sand Kingdomsearch failed
 
-key_word: Pixel Grand Battlesearch failed
-
-app_name: American Ball
- need: com.sigmagame.americanball
- found: com.funlab.americanfootball
-
-app_name: Cordy Sky
- need: com.silvertree.cordysky
+app_name: #DRIVE
+ need: com.pixelperfectdude.htdrive
  found: None
 
-key_word: FlyLiasearch failed
+key_word: Sky Gamblers – Infinite Jetssearch failed
 
-key_word: search failed
-
-key_word: Whack The Dummysearch failed
-
-key_word: Way to heavensearch failed
-
-key_word: Defense 39search failed
-
-app_name: Ninja Run
- need: com.skull.surfer
+app_name: Virtual Families 3
+ need: com.ldw.vf3
  found: None
 
-ng.minecraftpe
-
-app_name: ABC Learning
- need: com.binibambini.abc
+app_name: Rage Road
+ need: com.rage.road
  found: None
 
-app_name: Hollywood Legends
- need: com.whaleapp.hollywood.legends.hidden.objects
+key_word: Ressosearch failed
+
+app_name: Maybe: Interactive Stories
+ need: com.cinamongames.maybegv
  found: None
 
-key_word: Strike Fortress Box:Battle Royalesearch failed
+key_word: A Stranger Placesearch failed
 
-app_name: Wonder Merge
- need: com.cookapps.wonder.merge.dragon.magic.evolution.merging.wondermerge
- found: merge.elves.pre.puzzle.match
+key_word: Boxing Gym Storysearch failed
 
-app_name: Cooking Frenzy
- need: com.dragonplus.cookingfrenzy
- found: com.zegostudio.cooking.games.tasty.chef
+key_word: Pocket League Story 2search failed
 
-app_name: Bubble Shooter
- need: bubbleshooter.orig
- found: shooter.bubble.match3
+key_word: PicsArt Photosearch failed
 
-key_word: Tuber Life Simulator 2search failed
+key_word: Vegas Crime Simulatorsearch failed
 
-app_name: OBDeleven
- need: com.voltasit.obdeleven
+app_name: TV Empire Tycoon
+ need: com.codigames.idle.tv.empire.tycoon
+ found: None
+
+key_word: Stupid Zombies 3search failed
+
+app_name: Game of Thrones: Conquest
+ need: com.wb.goog.got.conquest
+ found: None
+
+key_word: Oceanhorn: Become a legend!search failed
+
+app_name: House Life 3D
+ need: com.flamingogamestudio.parentlife3d
+ found: None
+
+app_name: Yu-Gi-Oh! Duel Links
+ need: jp.konami.duellinks
+ found: com.netease.ma84
+
+app_name: Hidden Through Time
+ need: com.CrazyMonkeyStudios.Hidden
+ found: None
+
+key_word: Turbo VPNsearch failed
+
+key_word: Nexomon: Epic monster capture adventuresearch failed
+
+key_word: CCleaner Prosearch failed
+
+app_name: Talking Tom Gold Run 2
+ need: com.outfit7.tomgoldrun2
+ found: None
+
+key_word: Dream House Dayssearch failed
+
+app_name: GRID Autosport
+ need: com.feralinteractive.gridmpdemo
+ found: com.t2ksports.nba2k19and
+
+app_name: GRIS
+ need: com.devolver.grispaid
+ found: None
+
+key_word: Los Angeles Crimessearch failed
+
+app_name: FINAL FANTASY III
+ need: com.square_enix.android_googleplay.FFIII_GP
+ found: None
+
+app_name: Fun Hospital
+ need: com.orangesgame.ios.loh
+ found: com.orangesgame.fh
+
+app_name: Mr Meat
+ need: com.kalipsogames.psychopathhunt
+ found: None
+
+ra.thi.rot
+
+app_name: Zombie Idle Defense
+ need: tdcgame.zombie.idle.defense
+ found: com.abigames.zombiedefense.tower.idle
+
+app_name: Jade Dynasty
+ need: com.xp101.jdru
+ found: None
+
+app_name: Space Shooter: Galaxy Attack
+ need: com.game.space.shooter2
+ found: com.Wind.wings.Space.Shooter
+
+app_name: Public Transport Simulator
+ need: com.skisosoft.pts
+ found: com.gf.city.bus.transport.ultimate.games
+
+key_word: GT: Speed ​​Clubsearch failed
+
+app_name: Romance Club
+ need: com.yourstoryinteractive.sails.pirate.adventure
+ found: None
+
+app_name: League of Legends: Wild Rift
+ need: com.riotgames.league.wildrift
+ found: com.riotgames.league.wildriftvn
+
+key_word: Idle Space Business Tycoonsearch failed
+
+app_name: Doorman Story
+ need: com.rmg.hotelteam
+ found: None
+
+key_word: Real Gangster Crimesearch failed
+
+key_word: DanMachi – MEMORIA FREESEsearch failed
+
+app_name: Masketeers
+ need: com.appxplore.masketeers
+ found: None
+
+key_word: Idle Transformationsearch failed
+
+app_name: Top Eleven 2021
+ need: eu.nordeus.topeleven.android
  found: com.netease.EVE
 
-key_word: iReal Prosearch failed
+app_name: Fate of Kai
+ need: com.Trylight.FateOfKai
+ found: None
 
-key_word: PROJECT:DRIFT 2.0search failed
+app_name: Idle Museum Tycoon
+ need: com.pixodust.games.idle.museum.tycoon.empire.art.history
+ found: None
 
-key_word: Days of Doomsearch failed
+app_name: Crash Delivery
+ need: com.whiteroom.crazydelivery
+ found: None
 
-key_word: DungeonCorp.search failed
+key_word: Score! Hero 2search failed
+
+app_name: Force Master
+ need: com.orbitalknight.forcemaster
+ found: None
+
+key_word: Drift Bike Racingsearch failed
+
+app_name: Mobile Legends: Bang Bang
+ need: com.mobile.legends
+ found: com.cubacoba.quizmobilelegendsbangbang
+
+key_word: My City : College Dorm Friendssearch failed
+
+app_name: Draw Climber
+ need: com.appadvisory.drawclimber
+ found: None
+
+app_name: Crazy Kick!
+ need: com.orbitalknight.ridiculousfreekick
+ found: com.cloudycats.trickykickdribblers
+
+key_word: Eden: World Simulatorsearch failed
+
+app_name: Rope Hero 3
+ need: com.mgc.rope.hero.three
+ found: stick.fight.warriors.crime.stickman.rope.hero
+
+key_word: Would you sell your soul?search failed
+
+app_name: Redecor
+ need: fi.reworks.redecor
+ found: None
+
+app_name: Last Shelter: Survival
+ need: com.more.dayzsurvival.gp
+ found: zombie.survival.last.city.shelter
+
+key_word: Tiny Troopers 2: Special Ops: Very good free shoot’em upsearch failed
+
+app_name: Extreme SUV Driving Simulator
+ need: com.aim.rallyhum
+ found: com.mme.extreme.suv.driving
+
+ince.AlamobileFormula
+ found: None
+
+app_name: Pocket
+ need: com.ideashower.readitlater.pro
+ found: com.rb.aircraftsaboteur
+
+key_word: MapMyRunsearch failed
+
+app_name: Idle Barber Shop Tycoon
+ need: com.codigames.idle.barber.shop.empire.tycoon
+ found: None
+
+key_word: North Farmsearch failed
+
+app_name: Clime
+ need: com.apalon.weatherradar.free
+ found: None
+
+key_word: Sectographsearch failed
+
+key_word: AniLabXsearch failed
+
+key_word: TeamSpeaksearch failed
+
+key_word: MagellanTVsearch failed
+
+key_word: GoneMADsearch failed
+
+key_word: TOIsearch failed
+
+key_word: AMC Securitysearch failed
+
+key_word: Miga Town My Vacationsearch failed
+
+app_name: Scrapyard
+ need: com.neonplay.casualscrapyardtycoon
+ found: None
+
+key_word: GO Launcher Zsearch failed
+
+key_word: Sweet Dance-INDsearch failed
+
+key_word: Talking Ben the Dogsearch failed
+
+key_word: Protake Prosearch failed
+
+key_word: ORG 2018search failed
+
+key_word: King of Defense Premiumsearch failed
+
+key_word: Camlysearch failed
+
+key_word: Pulse SMSsearch failed
+
+key_word: Videapsearch failed
+
+key_word: Onefootball Mod Extrasearch failed
+
+key_word: CineTraksearch failed
+
+app_name: Boss 3
+ need: com.gamehivecorp.beattheboss3
+ found: None
+
+key_word: SkillTwins2search failed
+
+key_word: Wolf Simulator Evolutionsearch failed
+
+key_word: AppBlocksearch failed
+
+app_name: The Wanderer
+ need: com.JamieParish.TheWanderer
+ found: com.ArteExperience.Thewanderer
+
+app_name: Grand Cafe Story
+ need: swggameslab.cooking.cafe.mkey_word: Utaprisearch failed
+
+app_name: Looney Tunes
+ need: com.aqupepgames.projectpepe
+ found: com.riseup.puzzleball.keeper.fireup
+
+key_word: [Installer] Donut Countysearch failed
+
+key_word: Russian Car Driver ZIL 130 Premiumsearch faileapp_name: Simplest RPG Game
+ need: pl.codejungle.simplestrpggame
+ found: pl.codejungle.simplestrpg.online
+
+key_word: Photomynesearch failed
+
+key_word: AdDirectorsearch failed
+
+app_name: Call Recorder
+ need: org.skvalex.cr
+ found: fairyland.merge.puzzle.magic.world
+
+key_word: M64Plus FZ Prosearch failed
+
+app_name: Vani
+ need: bolo.codeplay.com.bolo
+ found: jp.co.netsu.haniapp
+
+key_word: GlassWiresearch failed
+
+key_word: Win Launcher Xsearch failed
+
+key_word: TvMobsearch failed
+
+app_name: Inker
+ need: co.inker
+ found: None
+
+key_word: Crash Dive 2search failed
+
+key_word: Pure Tubersearch failed
+
+app_name: Pizza Boy Pro
+ need: it.dbtecno.pizzaboypro
+ found: com.tapblaze.pizzabusiness
+
+key_word: AdShieldsearch failed
+
+key_word: The Prison Boyssearch failed
+
+key_word: Wiseplaysearch failed
+
+key_word: ?????????search failed
+
+app_name: R.A.C.E.
+ need: com.smokoko.race
+ found: com.ea.games.r3_row
+
+app_name: LunaM
+ need: com.soulgames.lunaph
+ found: com.soulgames.lunamsg
+
+key_word: Fable Warssearch failed
+
+app_name: Idle Evolution
+ need: com.littlebitgames.idleevolution
+ found: None
+
+key_word: FineReader Prosearch failed
+
+key_word: Transparent clock & weather (ad-free)search failed
+
+key_word: Castifysearch failed
+
+app_name: Flowx
+ need: com.enzuredigital.weatherbomb
+ found: com.Frasinapp.waterfountain
+
+app_name: D Dungeons
+ need: com.monstro.deadlyd
+ found: None
+
+key_word: Stoxy Prosearch failed
+
+key_word: Spacerosearch failed
+
+key_word: Home Run Highsearch failed
+
+app_name: Vaulty
+ need: com.theronrogers.vaultyfree
+ found: com.nitrome.vault
+
+key_word: Video Editor PROsearch failed
+
+key_word: Screen Mastersearch failed
+
+key_word: To-do Listsearch failed
+
+key_word: Smart YouTube TVsearch failed
+
+key_word: Anime Boyasearch failed
+
+key_word: LazyMedia Deluxesearch failed
+
+key_word: Always On Edgesearch failed
+
+key_word: Scan&Translatesearch failed
+
+app_name: My Bestie
+ need: com.storygame.matchthreechoices.mybestie
+ found: me.dress_up_games.gossip_girl_four
+
+app_name: Strava
+ need: com.strava
+ found: com.graveck.strata
+
+key_word: TVGuidesearch failed
+
+key_word: LINE Camerasearch failed
+
+key_word: Premomentsearch failed
+
+app_name: Merge City
+ need: com.townsend.gammascraper
+ found: com.merge.city
+
+key_word: Trucker Joesearch failed
+
+key_word: Biathlon Manager 2021search failed
+
+key_word: Idle Dungeon Managersearch failed
+
+app_name: Luna M
+ need: com.extreme.lunam.th
+ found: None
+
+key_word: Failed Wkey_word: Busuusearch failed
+
+key_word: PPSS22search failed
+
+key_word: [Installer] Bring You Homesearch failed
+
+key_word: Ios 13 Icon Packsearch failed
+
+app_name: Millionaire
+ need: com.sonypicturestelevision.millionaire
+ found: com.alpopstudio.millionaire
+
+app_name: WatchMe
+ need: me.watch.com
+ found: com.alex.rnf
+
+app_name: Kitchen Story
+ need: com.appon.kitchenstory
+ found: com.fun.tasty.food.cooking.game
+
+key_word: Collage Makersearch failed
+
+app_name: Dot n Beat
+ need: com.dotnbeat.dancing.music.rhythm.handspeed
+ found: com.dotnbeat.jrtt
+
+key_word: ibisPaint Xsearch failed
+
+key_word: Tetris Royalesearch failed
+
+key_word: 1998 Camsearch failed
+
+key_word: Kuji Camsearch failed
+
+app_name: ROOMS
+ need: rooms.handmadegame.net
+ found: None
+
+app_name: Clean Master
+ need: com.cleanmaster.mguard
+ found: com.coa.spartacus
+
+key_word: Moment Pro Camerasearch failed
+
+app_name: Star Chef
+ need: com.NNGames.starchef_android
+ found: None
+
+key_word: Retro Musicsearch failed
+
+key_word: StoryZsearch failed
+
+key_word: HMA VPN Originalsearch failed
+
+app_name: TikTok
+ need: com.tiktok.tv
+ found: com.Metsker.POPIT
+
+key_word: Seekers Notes: Hidden Mysterysearch failed
+
+key_word: ???o??search failed
+
+key_word: Smart Launchersearch failed
+
+app_name: Rosetta Stone
+ need: air.com.rosettastone.mobile.CoursePlayer
+ found: com.xd.ro.roapk
+
+app_name: Shadow Stickman
+ need: com.rocket.shadow.stickman.fighting
+ found: com.zitga.ninja.stickman.legends
+
+key_word: 1DM+search failed
+
+key_word: Forces of Freedomsearch failed
+
+key_word: 9GAGsearch failed
+
+key_word: Mojitosearch failed
+
+app_name: JOOX
+ need: com.tencent.ibg.joox
+ found: com.atlab.ooxx2
+
+key_word: Pixomaticsearch failed
+
+key_word: Prison Architect Mobile Installersearch failed
+
+key_word: ??????????search failed
+
+key_word: Panda Game Boostersearch failed
+
+key_word: Ucmatesearch failed
+
+key_word: Speedtestsearch failed
+
+key_word: PvZ 3search failed
+
+key_word: WeatherProsearch failed
+
+key_word: Yokeesearch failed
+
+app_name: Z Camera
+ need: com.jb.zcamera
+ found: com.cakebuttonfantasy.supercamerazoom
+
+key_word: Elnea Kingdomsearch failed
+
+key_word: YouCut - Video Editorsearch failed
+
+app_name: S Photo Editor
+ need: com.steam.photoeditor
+ found: com.photocameragame.fnafsticker
+
+app_name: Plex
+ need: com.plexapp.android
+ found: None
+
+key_word: Cross DJsearch failed
+
+app_name: VLLO
+ need: com.darinsoft.vimo
+ found: com.FlickManiaGames.Illo
+
+app_name: 94%
+ need: com.scimob.ninetyfour.percent
+ found: None
+
+key_word: Snap VPNsearch failed
 
 key_word: ????search failed
 
-key_word: Owlysearch failed
+key_word: LN Shadow of Ronin Installersearch failed
 
-key_word: Lets Journey: Dragon Hunterssearch failed
+key_word: [Installer] LEGO® Ninjago™: Shadow of Roninsearch failed
 
-key_word: Action Launcher Mod Extrasearch failed
+app_name: All N One
+ need: com.sfazz.fruity
+ found: air.com.pozirk.allinonesolitaire.paid
 
-key_word: Smart Toolssearch failed
+app_name: Friends Forever
+ need: com.games2win.friendsforever
+ found: com.games2win.drivewithfriends
 
-key_word: MD Helpersearch failed
+key_word: New York Mysteries 4 Installersearch failed
 
-app_name: Eyes
- need: com.gamefox.eyes
+key_word: Stellio Playersearch failed
+
+key_word: Swift Blacksearch failed
+
+key_word: TouchVPNsearch failed
+
+app_name: Sultan
+ need: com.NNGames.sultan
  found: None
 
-app_name: 5 Heroes
- need: studio.banditos.banditos5
- found: com.my.moba.ent
+key_word: CSD20search failed
 
-roid.ANMP.GloftA9HM
- found: gamecarracing3d.trafficracer.realracingea.Asphatl9legend
+key_word: Deadrite Hunt Installersearch failed
 
-app_name: FIFA MOBILE
- need: com.nexon.fmk
- found: jp.co.nexon.fmja
+key_word: Real Boxing Installersearch failed
 
-app_name: PlayHome Plus
- need: com.playhome.plus
- found: com.MyPlayHome2FreeAdvices.AdvicesMyPlayHomePlus
+key_word: FilePursuit Prosearch failed
 
-app_name: SummertimeSaga
- need: com.kompasproductions.summertimesaga
- found: com.youloft.summer
-
-ity Magic
- need: com.home.wizwar
- found: com.magiccubegamses.InfinityDuels
-
-key_word: Chaos Fightersearch failed
-
-app_name: Kung Fu Attack
- need: com.hssoft.KungFuAttackFinal
- found: com.hssoft.KungFuAttack4
-
-key_word: I Am Fighter!search failed
-
-key_word: Street Fighting Mansearch failed
-
-key_word: Endless Run Jungle Escapesearch failed
-
-app_name: Monster Shooter
- need: com.huuugetaptapgames.monster.shooter
+app_name: Series
+ need: com.nbcuni.usie.seriesendless
  found: None
 
-app_name: Supremacy
- need: com.huubii.xxwhjenandroid
+app_name: pixiv
+ need: jp.pxv.android
+ found: net.pixiv.vroid.android
+
+key_word: VPN Robotsearch failed
+
+key_word: Null’s Rushsearch failed
+
+key_word: Retricasearch failed
+
+key_word: Textrasearch failed
+
+key_word: Wattpadsearch failed
+
+key_word: Wattpad Betasearch failed
+
+key_word: aCalendar+search failed
+
+key_word: Storyscapesearch failed
+
+key_word: 365Scoressearch failed
+
+key_word: NOVA 3 Installersearch failed
+
+app_name: My Love
+ need: io.gamebook.romance
+ found: cn.catcap.ayc1en
+
+app_name: Battlejack
+ need: com.grandcru.battlejack
  found: None
 
-app_name: DEAD HUNTER
- need: com.hwanho.gun.fire.real.undead.survival.fps.zombie.btstrigger
- found: com.fps.zombie.dekey_word: Case Simulator SO2search failed
+key_word: [Installer] Trailboss BMXsearch failed
 
-app_name: Castle Clash
- need: com.igg.castleclash
- found: com.igg.clashoflords2
-
-app_name: Castle Raid
- need: com.karimcastagnini.castlestorm
+app_name: Sweet House
+ need: com.myapp.sweethouse
  found: None
 
-app_name: Cat Escape
- need: gg.sunday.catescape
+key_word: LEGO Star Wars Battles Installersearch failed
+
+key_word: FIFA 14search failed
+
+key_word: Booty Callssearch failed
+
+app_name: Delight Games
+ need: com.delightgames.delightgames
+ found: com.wexgames.delightgp
+
+key_word: ZAOsearch failed
+
+key_word: Funimationsearch failed
+
+key_word: Funimationsearch failed
+
+key_word: LaunchBoxsearch failed
+
+app_name: Resort Hotel
+ need: com.whaleapp.resorthotel
+ found: com.gameinsight.gplay.island2
+
+key_word: Pi Music Playersearch failed
+
+key_word: ActionDirectorsearch failed
+
+key_word: Mustreadsearch failed
+
+key_word: ????search failed
+
+app_name: Zombie Blast
+ need: com.sngict.survivors.zombies
+ found: com.vividgames.modernpioneer
+
+app_name: Armor Blitz
+ need: com.Gaudium.ArmoredBlitzNutaku
+ found: com.Gaudium.ArmoredBlitz
+
+key_word: Greenifysearch failed
+
+key_word: AQ3Dsearch failed
+
+key_word: Quick Hit Slotssearch failed
+
+key_word: Footej Camera 2search failed
+
+app_name: Twilight School
+ need: com.genius.zombieschool
  found: None
 
-ceCarflying3D
- found: com.gtracegames.flyingsupersportcarsim
+key_word: Any.dosearch failed
 
-y_word: Coffee Shop 3Dsearch failed
+key_word: Fugitive Desiressearch failed
 
-key_word: SCP Clickersearch failed
+key_word: Piano Companion PROsearch failed
 
-app_name: LoveMatch
- need: com.gamesband.lovematch
- found: com.hyperdevbox.lovecatch
+app_name: ADM
+ need: com.dv.adm
+ found: com.vjkqc.cpbdh
 
-key_word: IDBS Helicoptersearch failed
+key_word: MyOfficesearch failed
 
-key_word: The Political Machine 2020search failed
+app_name: Mystic Code
+ need: com.lucydream.mysticcode.global
+ found: com.lucydream.mysticcode
 
-app_name: SUV Trials Forever - Winter Edition
- need: com.CNS.SUVTrialsForever
+app_name: Steampunk Tower 2
+ need: com.dreamgate.steampunktower2.android
+ found: com.stereo7games.syndicate2
+
+app_name: Home Dream
+ need: com.smartfunapps.home.word
+ found: None
+
+key_word: Prime Videosearch failed
+
+key_word: Seven Angelssearch failed
+
+key_word: JioTVsearch failed
+
+key_word: OREO TVsearch failed
+
+key_word: JioTVsearch failed
+
+app_name: Golf King
+ need: com.pnixgames.golfkingwt
+ found: None
+
+app_name: All-In-One Toolbox
+ need: imoblife.toolbox.full
+ found: None
+
+app_name: 3C All-in-One Toolbox
+ need: ccc71.at.free
+ found: None
+
+app_name: Sleep
+ need: com.urbandroid.sleep
+ found: None
+
+key_word: Sleep Lullaby Add-onsearch failed
+
+key_word: SleepCloudsearch failed
+
+key_word: Simple Prosearch failed
+
+key_word: File Commandersearch failed
+
+key_word: Booty Farmsearch failed
+
+app_name: Family Hotel
+ need: com.playflock.family.hotel.story.home.mansion.puzzle.garden.decoration
+ found: None
+
+app_name: COSMIC WARS
+ need: com.utplus.cosmicwars
+ found: com.cosmicowl.cw
+
+app_name: G.I. Joe
+ need: com.d3go.gijoewaroncobra
+ found: com.JoeLillington.Flocc
+
+key_word: Telegramsearch failed
+
+key_word: Telegramsearch failed
+
+key_word: Kustom LWPsearch failed
+
+key_word: Kustom Locksearch failed
+
+app_name: Golden Boot
+ need: com.nordeus.goldenboot
+ found: None
+
+key_word: Taskersearch failed
+
+key_word: Wild Life Installersearch failed
+
+key_word: WaveEditorsearch failed
+
+app_name: Truck World
+ need: com.truckworldgame.euro.american.truck.simulator
+ found: com.superthumb.puccafoodtruck01
+
+key_word: Librera PROsearch failed
+
+key_word: Woozworldsearch failed
+
+app_name: Blade & Wings
+ need: com.bladewings.poppace
+ found: None
+
+app_name: Kittens
+ need: com.explodingkittens.projectbombsquad
+ found: com.netflix.NGP.Knittens
+
+key_word: Cut the Rope Magicsearch failed
+
+key_word: MangaToonsearch failed
+
+key_word: MangaToonsearch failed
+
+key_word: D&Dsearch failed
+
+key_word: Pocket Survivorsearch failed
+
+key_word: Media365 Readersearch failed
+
+key_word: Manga Dogssearch failed
+
+app_name: WEBTOON
+ need: com.naver.linewebtoon
+ found: com.andromedagames.noblesseglobal
+
+key_word: Gummy Drop!search failed
+
+key_word: Golden Frontier Farm Adventures Installersearch failed
+
+key_word: AliceRe:Code-Xsearch failed
+
+key_word: ???????search failed
+
+key_word: IdleWizardSchoolsearch failed
+
+key_word: LCM2search failed
+
+app_name: Arrow.io
+ need: com.cmcm.arrowio
+ found: com.play.game.arrowio
+
+key_word: Retro8search failed
+
+app_name: ELCHRONICLE
+ need: net.cravemob.elc.rel
+ found: net.cravemob.elc.rel1
+
+app_name: Bright Memory Installer
+ need: com.FYQD.BrightMemory.moddroid
+ found: com.FYQD.BrightMemory.fake
+
+app_name: Story Lab
+ need: com.cerdillac.storymaker
+ found: None
+
+app_name: AppLock
+ need: com.domobile.applockwatcher
+ found: com.emoji.wordsearch_multilanguage
+
+key_word: AppLock PROsearch failed
+
+key_word: AppLock Litesearch failed
+
+key_word: C25K Prosearch failed
+
+app_name: Ayakashi
+ need: com.voltage.g.ayakoi.en
+ found: jp.MASA.AyakashiSeries5
+
+key_word: CDisplayExsearch failed
+
+key_word: Indussearch failed
+
+key_word: TaverGramsearch failed
+
+key_word: Telegram+ Themessearch failed
+
+key_word: AnimeDLRsearch failed
+
+key_word: X-ploresearch failed
+
+key_word: YourHoursearch failed
+
+key_word: MOLDIVsearch failed
+
+key_word: Rugby Nations 19 Installersearch failed
+
+app_name: Home Designer Blast
+ need: com.tamalaki.homedesigner.makeover.blast
+ found: com.yunbu.home.designer.house.blast.android
+
+key_word: Basketball Club Storysearch failed
+
+key_word: Cricbuzzsearch failed
+
+app_name: BIO INC
+ need: com.dryginstudios.bioincmobile
+ found: air.com.dryginstudios.bioinc
+
+app_name: Idle Construction 3D
+ need: com.gpp.idleconstruction
+ found: None
+
+app_name: Car Parking
+ need: com.newsite.olzhas
+ found: com.olzhas.carparking.multyplayer
+
+key_word: SIMULACRA 2 Installersearch failed
+
+key_word: AE Mysteriessearch failed
+
+app_name: Sweet Escapes
+ need: com.redemptiongames.sugar
+ found: None
+
+key_word: [Installer] WitchSpring4search failed
+
+key_word: [Installer] Aerofly FS 2020search failed
+
+key_word: Hijacker Jack Installersearch failed
+
+key_word: Eternity Legends Installersearch failed
+
+app_name: Rise
+ need: com.tfgco.games.shooting.free.shooter.arena
+ found: None
+
+key_word: The House of Da Vinci Installersearch failed
+
+key_word: NDTV Newssearch failed
+
+key_word: Real Car Parking 2 Installlersearch failed
+
+key_word: Manual gearbox Car parking Installersearch failed
+
+key_word: Manual Installersearch failed
+
+key_word: Relay Prosearch failed
+
+key_word: Flux Whitesearch failed
+
+app_name: Merge Battle Car
+ need: com.noxgames.battle.car.tycoon
+ found: com.origame.merge.battle.car
+
+app_name: Esports Life Tycoon
+ need: com.uplayonline.esportslifetycoon
+ found: None
+
+key_word: Esports Life Tycoon Installersearch failed
+
+key_word: PowerAudio Prosearch failed
+
+key_word: [Installer] 60 Parsecssearch failed
+
+key_word: EWTD 2 Premium Installersearch failed
+
+key_word: Photomathsearch failed
+
+app_name: Mood
+ need: com.calea.echo
+ found: com.GDDERSF
+
+key_word: Death Move Installersearch failed
+
+key_word: Magic Piano by Smule VIPsearch failed
+
+app_name: Tabou
+ need: org.nanobit.taboo
+ found: None
+
+key_word: FakeGPS Routesearch failed
+
+app_name: DISTRAINT: Deluxe Edition
+ need: com.winterveilstudios.DISTRAINTDE
+ found: None
+
+key_word: Navigation Prosearch failed
+
+key_word: Simple Scannersearch failed
+
+key_word: Simple Scanner Prosearch failed
+
+key_word: BSPlayer Prosearch failed
+
+key_word: Another Day Installersearch failed
+
+key_word: Endless Abyss Installersearch failed
+
+key_word: Street Racing HDsearch failed
+
+app_name: Overdrive II
+ need: com.shadowbattle.overdrive.legend
+ found: None
+
+key_word: Blocky Roads Installersearch failed
+
+key_word: Smart AudioBook Playersearch failed
+
+key_word: LEGO Marvel Super Heroes Installersearch failed
+
+key_word: XRecordersearch failed
+
+app_name: Cooking Craze
+ need: com.bigfishgames.cookingcrazegooglef2p
+ found: None
+
+key_word: TNT Flash TVsearch failed
+
+key_word: FotMob Prosearch failed
+
+key_word: FotMobsearch failed
+
+key_word: NutakuHentaiClickersearch failed
+
+app_name: CodyCross
+ need: com.fanatee.cody
+ found: None
+
+app_name: DualSpace Lite
+ need: com.ludashi.superboost
+ found: org.squaredcode.dual
+
+app_name: DualSpace Pro
+ need: com.ludashi.dualspaceprox
+ found: org.squaredcode.dual
+
+app_name: Gym Flip
+ need: com.ruby.gymflip
+ found: None
+
+key_word: GOM Audio Plussearch failed
+
+key_word: Heist Thief Robbery Installersearch failed
+
+app_name: Wunderground
+ need: com.wunderground.android.weather
+ found: None
+
+app_name: mojo
+ need: video.mojo
+ found: com.bandainamcoent.jojodr
+
+key_word: AU2 Mobile-IDsearch failed
+
+key_word: AU2 Mobile-ENsearch failed
+
+key_word: ???search failed
+
+key_word: ActionDash Premiumsearch failed
+
+key_word: iTranslatesearch failed
+
+key_word: Attack on Moe Hsearch failed
+
+key_word: Loopsiesearch failed
+
+key_word: SniperHonorsearch failed
+
+key_word: Pepi Wonder Worldsearch failed
+
+key_word: V Recordersearch failed
+
+key_word: Photo Studio PRO MODsearch failed
+
+key_word: Dino Squad Installersearch failed
+
+key_word: Monster Haremsearch failed
+
+key_word: Safe Securitysearch failed
+
+key_word: Fictionssearch failed
+
+key_word: 90ssearch failed
+
+key_word: Tapatalksearch failed
+
+key_word: Intracesearch failed
+
+key_word: MAPS.MEsearch failed
+
+app_name: Disgaea 1 complete
+ need: jp.nippon1.disgaearefine
+ found: None
+
+key_word: Planner 5Dsearch failed
+
+app_name: Internet Cafe Simulator Installer
+ need: com.CheesecakeDev.InternetCafeSimulator.moddroid
+ found: com.CheesecakeDev.InternetCafeSimulator
+
+key_word: Enemy Gates Installersearch failed
+
+key_word: Superheroes Citysearch failed
+
+key_word: Tumblrsearch failed
+
+app_name: ??????4
+ need: com.szinteractive.Trucksimulatoroffroad4
+ found: com.nexon.v4gb
+
+key_word: 1Tap Cleaner Prosearch failed
+
+key_word: Stunt Truck Jumpingsearch failed
+
+key_word: Podcast Republicsearch failed
+
+app_name: RockyRampage
+ need: com.joyseed.bod
+ found: None
+
+key_word: MINImax Tinyverse Installersearch failed
+
+key_word: DQSsearch failed
+
+key_word: Squadron Installersearch failed
+
+app_name: Small Town
+ need: com.rovio.smalltownmurders
+ found: None
+
+app_name: Mi Band Tools
+ need: cz.zdenekhorak.mibandtools
+ found: None
+
+key_word: Quick Video Recordersearch failed
+
+app_name: Outline
+ need: com.schnettler.outline
+ found: None
+
+app_name: Vinci
+ need: io.vinci.android
+ found: com.bluebraingames.houseofdavinci2
+
+key_word: Business Calendar Prosearch failed
+
+key_word: Maki Plussearch failed
+
+key_word: Swift Installersearch failed
+
+key_word: Dub Music Playersearch failed
+
+app_name: Quizlet
+ need: com.quizlet.quizletandroid
+ found: None
+
+app_name: Duo
+ need: com.sreerag.duo
+ found: None
+
+key_word: Liv Darksearch failed
+
+key_word: CandyCons Unwrappedsearch failed
+
+key_word: Borealissearch failed
+
+key_word: Quick Settings Prosearch failed
+
+app_name: Folder Player Pro
+ need: com.folderplayerpro
+ found: None
+
+app_name: Flux
+ need: flux.substratum.theme
+ found: None
+
+app_name: Superhero War
+ need: com.ubimob.superhero.war
+ found: com.twgames.flying.superhero.grand.city.rescue.games
+
+app_name: BONBON
+ need: com.bandainamcoent.oprvww
+ found: com.wantgame.mmlite
+
+app_name: Park Master
+ need: com.kayac.park_master
+ found: com.SpektraGames.RealCarParkingParkingMaster
+
+app_name: Merge Fairies
+ need: com.octopusgames.fairymerge
+ found: None
+
+app_name: Idle Quest Heroes
+ need: com.chargedmonkey.idlequestheroesepicdungeonrpg
+ found: kr.co.questgames.druwadungeonag
+
+app_name: Snooker
+ need: com.giraffegames.ggpool
+ found: None
+
+key_word: Home Design 3D Installersearch failed
+
+key_word: Azerothsearch failed
+
+app_name: Demi
+ need: com.episodeinteractive.android.demi
+ found: None
+
+app_name: Over
+ need: app.over.editor
+ found: None
+
+key_word: [Installer] Veritassearch failed
+
+app_name: Idle Makeover
+ need: com.mindstormstudios.idlemakeover
+ found: com.ezgames.idletransformation
+
+app_name: Rush
+ need: com.adobe.premiererush.videoeditor
+ found: game.LRTH.RustBuilder.Free
+
+app_name: Love Story
+ need: com.Love.Story
+ found: cn.catcap.ayc1en
+
+key_word: Parkour Simulator 3D - Stunts And Trickssearch failed
+
+app_name: Crazy for Speed
+ need: com.racing.car.crash.turbo
+ found: None
+
+key_word: Survive Together Installersearch failed
+
+key_word: Prison Royalesearch failed
+
+app_name: MoonBox
+ need: com.northamigos.supermoonbox
+ found: com.northAmigos.Supermoonbox2
+
+app_name: Crazy Kitchen
+ need: com.flybirdgames.cookinghot
+ found: com.zindagigames.test
+
+key_word: Aqua Mailsearch failed
+
+app_name: CockVille
+ need: com.tendertroup.cockville
+ found: com.supercell.clashofclans.kunlun
+
+key_word: ????search failed
+
+key_word: Project QTsearch failed
+
+key_word: ???????search failed
+
+key_word: ????search failed
+
+app_name: World War II
+ need: com.joynow.strategy.ww2
+ found: air.com.fs.clashofarmies.ClashofArmiesAndroid
+
+key_word: Ninja Maidenssearch failed
+
+key_word: Lustful Shoressearch failed
+
+key_word: Merge Nymphssearch failed
+
+key_word: Firstlightsearch failed
+
+key_word: Audio Book Librivoxsearch failed
+
+app_name: Girls & Guys
+ need: com.amrita.girlsguys
+ found: None
+
+app_name: Beat Jumper
+ need: com.amanotes.pamainfinitybounce
+ found: None
+
+key_word: ????search failed
+
+app_name: Hunting Simulator
+ need: com.woodcock.huntingsimulator
+ found: com.tensquaregames.hunting.clash.wild.hunter.deer
+
+key_word: Logo Designersearch failed
+
+key_word: Logo Makersearch failed
+
+app_name: Hamster Town
+ need: com.SuperAwesome.HP
+ found: air.com.coworkdream.HamsterpicLogic
+
+key_word: Stock Carssearch failed
+
+app_name: Transport Empire
+ need: com.gameinsight.transportempiregp
+ found: None
+
+app_name: Angry Birds
+ need: com.rovio.angrybirdsstarwarsii.ads
+ found: com.rovio.abcasual
+
+app_name: Despotism 3k
+ need: com.KonfaGames.Despotism3k
+ found: None
+
+key_word: Zaycev.fmsearch failed
+
+key_word: Groovepadsearch failed
+
+key_word: Always On AMOLEDsearch failed
+
+app_name: Glitch!
+ need: com.lucagrillo.ImageGlitcher
+ found: None
+
+earch failed
+
+app_name: Idle Tuber
+ need: com.doublejump.idletuber
+ found: None
+
+app_name: Drive Simulator 2020
+ need: com.dualcarbon.drivesimulator2020
+ found: com.gs.offroadbus.mountaindrive.simulator
+
+app_name: Rotas Do Brasil Simulador
+ need: com.dmd.rbs
+ found: com.xd.ro.roapk
+
+app_name: City of Sin
+ need: com.ecp.newsocen
+ found: None
+
+key_word: Zombie Wave: Shooting Gamesearch failed
+
+key_word: Battle Crashersearch failed
+
+app_name: City Mania
+ need: com.gameloft.android.ANMP.GloftCMHM
+ found: None
+
+app_name: Sniper Warrior
+ need: com.gamesentity.sniper3d.fps.shooting.game
+ found: com.cigames.sgwm
+
+app_name: Cats Park
+ need: com.gamesim.CatsPark
+ found: com.lightboat.cats.android.ohayoo
+
+key_word: Bodyguardsearch failed
+
+key_word: World War 2 Heroes Army WW2 Battlefield Gamesearch failed
+
+key_word: Car Islandsearch failed
+
+key_word: Script of Eternitysearch failed
+
+key_word: Bat Hunting Shooting Gamesearch failed
+
+key_word: Protect The VIPsearch failed
+
+app_name: Dark Avenger
+ need: com.gamevil.doz.global
+ found: com.nexon.da3
+
+app_name: Afterpulse
+ need: com.gamevilusa.afterpulse.android.google.global.normal
+ found: com.dle.afterpulse
+
+key_word: Contract Cover Shooter Fire Survivalsearch failed
+
+key_word: Critical Commando Strikesearch failed
+
+key_word: ????????search failed
+
+key_word: World War 2 Battle Simulatorsearch failed
+
+key_word: Us Army Snipersearch failed
+
+key_word: Bad Princesssearch failed
+
+key_word: Wasteland Survival Simulator Fullsearch failed
+
+app_name: Heroes
+ need: net.mastermind.hol
+ found: None
+
+key_word: Hunters Chroniclesearch failed
+
+key_word: search failed
+
+app_name: Stickman Fighter Epic Battles
+ need: net.playtouch.stickmanfightereb
+ found: stickmanDojo.fighter.battle
+
+app_name: ZombieStrike
+ need: net.supercat.deadguns
+ found: com.dgame.zombies
+
+app_name: Ninja Rush
+ need: ninja.rush.jump
+ found: None
+
+app_name: Purrfect
+ need: okinawa.harapeco.catRestaurant
+ found: com.droidhang.tdm
+
+app_name: Th?n V??ng Mobile
+ need: oneworld.thanvuongmobile.vn
+ found: com.vtc.nguthansu
+
+key_word: Exiled Godssearch failed
+
+app_name: Agent Commando
+ need: op.agentcommando
+ found: com.dgstudios.Secret.Agent.Lara.FrontLine.Commando
+
+key_word: Dino the Beastsearch failed
+
+app_name: BB GOLD
+ need: net.skyvu.battlebearsgold
+ found: None
+
+key_word: Poly Piratesearch failed
+
+app_name: Cyber Strike
+ need: pl.thedust.cyberstrike
+ found: com.space.cbp.cbs
+
+key_word: Wildssearch failed
+
+app_name: LordmancerII
+ need: ru.mobak.lordmancer2
+ found: None
+
+key_word: Clicker Wastelandsearch failed
+
+key_word: Chain Chroniclesearch failed
+
+key_word: Wakfu Raiderssearch failed
+
+key_word: BaconEscapesearch failed
+
+key_word: Skate.iosearch failed
+
+key_word: Spider Rope Warriorssearch failed
+
+app_name: Stickman Epic War
+ need: stickman.warriors.epic.war.battle
+ found: stickmanwarriors.stickmanWar.online
+
+key_word: URBsearch failed
+
+key_word: Stickman Fighter: Supreme Warriorsearch failed
+
+app_name: EDEN
+ need: th.co.tdp.eden
+ found: com.channel4.eden
+
+key_word: Awakening of the Eclipsesearch failed
+
+app_name: Innocent
+ need: com.glaznev.innocent
+ found: None
+
+key_word: BS BoxSimsearch failed
+
+app_name: Ant Factory
+ need: com.gpp.antfactory
+ found: com.gamecream.antfactory
+
+key_word: Water Townsearch failed
+
+app_name: Fashion Show
+ need: com.gofiveglobal.fashion.dress.up
+ found: None
+
+key_word: Idle Railway Tycoonsearch failed
+
+key_word: MergeHeroessearch failed
+
+app_name: The Trail
+ need: com.kongregate.mobile.thetrail.google
+ found: None
+
+key_word: PS4 Simulatorsearch failed
+
+key_word: Stickman Blastsearch failed
+
+app_name: Miami Crime Police
+ need: com.mgc.miami.crime.police
+ found: None
+
+app_name: Treehouse
+ need: com.mtvn.loudhouseapp
+ found: com.appnre.treehouse
+
+key_word: Trump's Empiresearch failed
+
+key_word: Police Cop Simulator. Gang Warsearch failed
+
+key_word: Real Car Parking MODSsearch failed
+
+key_word: Farmer Sim 2015search failed
+
+app_name: Extreme Trucks Simulator
+ need: com.ovilex.extremetruckssimulator
+ found: None
+
+app_name: Hollywood U.
+ need: com.pixelberrystudios.hwuandroid
+ found: com.glu.stardomkim
+
+app_name: Oil Tanker Transporter
+ need: com.racinggames.oil.tanker_truck.simulator
+ found: com.tg.oiltankertransportersim2018
+
+key_word: Rap Lifesearch failed
+
+app_name: Build Roads
+ need: com.reboot.buildroads
+ found: None
+
+key_word: Idle Strong Grannysearch failed
+
+app_name: Tap Craft
+ need: com.ronovanbono.tapcraft
+ found: com.wms.business.magnate
+
+key_word: Mining Tycoon 3Dsearch failed
+
+key_word: WOTD OFFROADsearch failed
+
+key_word: Idle Space minersearch failed
+
+key_word: Idle Trains Railway Tycoonsearch failed
+
+app_name: City Island
+ need: com.sparklingsociety.cityisland
+ found: com.sparklingsociety.cityisland4
+
+app_name: Little Crane
+ need: com.steenriver.littlecrane
+ found: jp.co.pointzero.ccmice
+
+key_word: Bridge Building Idlesearch failed
+
+key_word: Stickman Dismount 2 Ragdollsearch failed
+
+app_name: Submarine Simulator
+ need: com.submarine.simulator
+ found: None
+
+app_name: Kawaii Home
+ need: com.sugastudio.homedecor
+ found: None
+
+app_name: Gangster in High School
+ need: com.te.high.school.gangster
+ found: None
+
+app_name: Wild Hunt
+ need: com.tensquaregames.huntmobile
+ found: com.shootdeer.wildhunt.targetanimal
+
+app_name: Nail Salon
+ need: com.tintash.nailsalon
+ found: None
+
+key_word: Traffic Cop Simulator 3Dsearch failed
+
+key_word: Wild Eagle Simsearch failed
+
+app_name: Weed Tycoon 2 Legalization
+ need: com.vestasoft.weedgrower2
+ found: None
+
+key_word: Idle Robbery!search failed
+
+key_word: Sugary - Date Simsearch failed
+
+app_name: Idle Bubbles
+ need: net.AddiktiveGames.IdleBubblesCannonGame
+ found: idle.balls.brick.breaker.ballz.bubbles.free
+
+key_word: Super Pop It Simulator: ASMR Relaxsearch failed
+
+key_word: Enemy Waterssearch failed
+
+app_name: Cookbook Master
+ need: br.com.tapps.cookbookmaster
+ found: None
+
+app_name: MOBA Legends
+ need: br.com.tapps.mobaidlelegends
+ found: com.tencent.lolm
+
+key_word: Hacking Herosearch failed
+
+key_word: Dealer's Life Litesearch failed
+
+key_word: Indian Heavy Driversearch failed
+
+key_word: Tap Tap Fistsearch failed
+
+key_word: PC Architectsearch failed
+
+key_word: Tank Physics Mobilesearch failed
+
+key_word: Eternal Cheemssearch failed
+
+key_word: Real Gangster Crime Simulator 3Dsearch failed
+
+app_name: Teardown Destroy City
+ need: com.ParapickStudio.DemolitionSim
+ found: None
+
+app_name: Gym Tycoon
+ need: com.bb.gym
+ found: com.codigames.idle.fitness.gym.tycoon
+
+key_word: ArmsDealersearch failed
+
+app_name: Weapons Simulator
+ need: com.bigbeep.weapongun2
+ found: com.barabapps.weaponsbuild
+
+app_name: Zombie Sim
+ need: com.binaryspacegames.zombieoutbreaksimulator
+ found: com.firststudiogames.zombierun
+
+app_name: Raft Survival
+ need: com.biogames008.raftsurvival
+ found: com.biogames.raftsurvival
+
+key_word: IdlePitStopsearch failed
+
+key_word: Oxide - Survival Islandsearch failed
+
+app_name: Moe Girl Cafe
+ need: com.catstudio.restaurant
+ found: com.catstudio.moegirlcafe2.ja
+
+key_word: Travel World Driver Real Citysearch failed
+
+app_name: Fix The Item!
+ need: com.clowngames.fixtheitem
+ found: com.apps.fixtheitem
+
+key_word: Case Royalesearch failed
+
+key_word: Wannabe Challengesearch failed
+
+app_name: Gun Master 2
+ need: com.craneballs.gunbuilder2
+ found: None
+
+app_name: Super Miner
+ need: com.danchoco.growminer
+ found: com.superworld.mineradventure
+
+key_word: Forensic Mastersearch failed
+
+app_name: Mustang Driving&Parking&Racing Simulator 2021
+ need: com.csm2021.carmustang
+ found: None
+
+app_name: RC-AirSim
+ need: com.fabricatedreality.RCAirSimFreeG
+ found: None
+
+key_word: Extreme Offroad Mud Truck Simulator 6x6 Spin Tiressearch failed
+
+key_word: Minibus Van Gamessearch failed
+
+key_word: Squad Game Challengesearch failed
+
+key_word: Submarine Piratessearch failed
+
+app_name: Idle Museum
+ need: com.gallery.museum.tycoon.idle.game.tap
+ found: None
+
+app_name: Everlasting Alchemists
+ need: com.genius.alchemist
  found: com.netease.EVE
 
-app_name: MAYDAY!
- need: com.reludo.emergencylanding
- found: air.G2JMaydayFlightRescue
+key_word: Criminal Desiressearch failed
 
-app_name: Smartphone Tycoon
- need: com.roasterygames.smartphonetycoonnew
- found: com.roasterygames.smartphonetycoon
+key_word: Loyalty for Lovesearch failed
 
-urce
- found: com.yingdigame.scifi.panzer.battle
+key_word: City Coach Bus Transport Simulator 2020search failed
 
-key_word: Ninja Warrior Assassin Epic Battle 3Dsearch failed
+key_word: Attack of the Deadsearch failed
 
-app_name: SquidGame
- need: com.squid.game.ending.game
+app_name: Island Inc
+ need: com.gpp.islandinc
  found: None
 
-app_name: grand stickman
- need: com.stickman.gta.gtastickman.city.crime.hero.pubg.mafia.duty
+key_word: Dog Run - Puppy Racingsearch failed
+
+key_word: Happy Playground Wheelssearch failed
+
+app_name: Bus Simulator 2021
+ need: com.hgs.usbus2021.hgs
+ found: com.burnout.bus.simulator
+
+key_word: Air Venturesearch failed
+
+app_name: Case Opener
+ need: com.lightside.caseopener2
+ found: com.NAStudio.StandoffCaseSimulator
+
+app_name: Us Train Simulator
+ need: com.jk.us.bullet.train.simulator
+ found: com.freegames.usarmytrainsimulator
+
+key_word: tinydeathstarsearch failed
+
+key_word: Merge Flowerssearch failed
+
+app_name: Pizza City Tycoon
+ need: com.mindstormstudios.tinypizza.google
+ found: com.tapblaze.pizzabusiness
+
+app_name: Zombie Hive
+ need: com.mobirix.zombiehive
+ found: com.spcomes.zombiehive
+
+key_word: Voodoo Magicsearch failed
+
+key_word: RMT-Simulatorsearch failed
+
+key_word: SovietCar: Simulatorsearch failed
+
+key_word: Anime College Girls Simulatorsearch failed
+
+app_name: D-Mate
+ need: com.newday.emotionallywhitereglobal
  found: None
 
-.realmotobikeracing
- found: com.Bike.InOfficeDrivingSimulatorGame
+key_word: Miss Detectivesearch failed
 
-key_word: Animal Driverssearch failed
+key_word: Mad Man: after doomsdaysearch failed
 
-app_name: SpeedX
- need: com.gp8.carumba2
+app_name: Sling Plane
+ need: com.panteon.slingplane
  found: None
 
-key_word: Vertigo Overdrivesearch failed
+key_word: Police Simulator - Swat Border Patrolsearch failed
 
-app_name: Army Transport Bus Driver
- need: com.gss.army.bus.driver
+key_word: San Andreas Crime Gangster 2017search failed
+
+key_word: Farm Mania 2search failed
+
+app_name: Angry Birds
+ need: com.rovio.abar
+ found: com.rovio.abcasual
+
+key_word: City Island 2: Building Storysearch failed
+
+app_name: Wedding Salon
+ need: com.sugargames.weddingsalon
  found: None
 
-key_word: Offline Bicycle Games 2020search failed
+key_word: Taxi Driver 3D : Hill Stationsearch failed
 
-app_name: True Racing
- need: com.grip.racing.shareit
- found: com.WCornucopia.XRacer
+key_word: Car Mechanic Junkyard- Tycoon Simulator Games 2020search failed
 
-key_word: ?ekil Yar???search failed
+app_name: Streamer Rush
+ need: com.streamerrush.game
+ found: None
 
-app_name: Superhero Bike
- need: com.gv.superhero.trickybike.stuntracing2021
- found: com.tt.superhero.bike.stunt.gt.racing.mega.ramp.games
+app_name: Ragdoll Fall
+ need: com.tatemgames.ragdollfall
+ found: None
 
-key_word: Formula Car Ramp Stuntssearch failed
+app_name: AirTycoon 5
+ need: com.tradegame.at5
+ found: None
 
-key_word: Tom's 4x4search failed
+app_name: FlyWings 2015 Flight Simulator
+ need: com.thetisgames.googleplay.flywingsfrance.free
+ found: None
 
-app_name: Racing in City
- need: com.hammurabigames.racingincity
- found: com.carracer.city
+key_word: Sea Captainsearch failed
+
+app_name: Transporter
+ need: com.toplight.transporter
+ found: None
+
+key_word: New Construction Simulator Gamesearch failed
+
+app_name: Heavy Excavator
+ need: com.xtreme.heavy.excavator.crane.simulator
+ found: None
+
+app_name: The Gorilla
+ need: com.wildlife.gorilla
+ found: air.G2JRescueTheGorilla
+
+key_word: Thermal scannersearch failed
+
+key_word: Merge Dinosaurssearch failed
+
+app_name: CMT
+ need: io.cyanfox.cmt
+ found: com.shootgame.zombie.reapersquad
+
+key_word: Scary Childsearch failed
+
+key_word: Historical Landingssearch failed
+
+app_name: Dragon S
+ need: es.socialpoint.DragonStadium
+ found: None
+
+app_name: Vampire
+ need: ladywizard.vampire
+ found: None
+
+key_word: Love & Passionsearch failed
+
+key_word: Drive Car Spider Simulatorsearch failed
+
+key_word: Stickman Warrior Onlinesearch failed
+
+key_word: Surv Islandsearch failed
+
+key_word: My Assassin High Schoolsearch failed
+
+key_word: Facemoji Keyboardsearch failed
+
+app_name: The Office: Somehow We Manage
+ need: com.eastsidegames.theofficeswm
+ found: None
+
+key_word: PGRsearch failed
+
+app_name: Happy Clinic
+ need: com.nordcurrent.happyclinicf2p
+ found: None
+
+key_word: Flex Run 3D: Superhero Squadsearch failed
+
+key_word: Supremacy 1914search failed
+
+key_word: CalligraphyMastersearch failed
+
+key_word: 456 Run Challengesearch failed
+
+app_name: BoredButton
+ need: com.gabblestudios.boredbutton
+ found: None
+
+app_name: Shape-shifting
+ need: com.game.shape.shift
+ found: None
+
+app_name: Airport 3D!
+ need: com.al.airport
+ found: None
+
+app_name: Heroes Raid
+ need: com.arena.castle.avengers.idle.hero.clash
+ found: com.mobusi.dungeonraid
 

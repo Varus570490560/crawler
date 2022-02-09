@@ -3,7 +3,7 @@ import pymysql
 
 def open_jojoy():
     try:
-        db = pymysql.connect(host='localhost', user='root', password='', port=3306, database='jojoy',autocommit=True)
+        db = pymysql.connect(host='localhost', user='root', password='', port=3306, database='jojoy', autocommit=True)
     except pymysql.Error as e:
         return None
     return db
@@ -65,7 +65,7 @@ def select_comment_id_app_id():
         return None
     cur = db.cursor()
     cur.execute(
-        "SELECT id,app_id FROM game_comment_1 WHERE `sub_comment` = -1 AND `id` >2147750349;")
+        "SELECT id,app_id FROM game_comment_1 WHERE `sub_comment` = -1;")
     res = cur.fetchall()
     cur.close()
     db.close()

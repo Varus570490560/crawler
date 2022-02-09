@@ -62,7 +62,8 @@ def crawling_sub_comment_by_id(comment_id, is_print, sub_comment_url):
             param_from += 10
 
 
-def crawling_sub_comment_by_ids_and_app_ids(ids_and_app_ids, is_print, db, sub_comment_url):
+def crawling_sub_comment_by_ids_and_app_ids(ids_and_app_ids, is_print, sub_comment_url):
+    db = connect_mysql.open_des_database()
     for id_and_app_id in ids_and_app_ids:
         response_jsons = crawling_sub_comment_by_id(id_and_app_id[0], is_print, sub_comment_url=sub_comment_url)
         for response_json in response_jsons:
