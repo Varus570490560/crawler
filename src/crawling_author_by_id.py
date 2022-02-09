@@ -54,7 +54,8 @@ def crawling_author_by_id(author_id, is_print, author_url):
     return response_json
 
 
-def crawling_author_by_ids(author_ids, is_print, db, author_url):
+def crawling_author_by_ids(author_ids, is_print, author_url):
+    db = connect_mysql.open_des_database()
     for author_id in author_ids:
         try:
             response_json = crawling_author_by_id(author_id[0], is_print, author_url=author_url)
