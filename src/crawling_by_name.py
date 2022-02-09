@@ -74,9 +74,12 @@ def crawling_by_app_name(app_name: string, comment_url, search_url, app_package:
                                                  is_print=is_print)
 
 
-def crawling_by_app_names_and_packages(apps: Tuple, db, comment_url, search_url, is_print):
+def crawling_by_app_names_and_packages(apps: Tuple, is_print, comment_url, search_url):
+    db = connect_mysql.open_des_database()
     tuples = None
-    package_validation_failed_log = open('./package_validation_failed/package_validation_failed_log.txt', 'w')
+    package_validation_failed_log = open(
+        '/Users/rockey211224/PycharmProjects/crawler/crawler/package_validation_failed/package_validation_failed_log.txt',
+        'w')
     for app in apps:
         texts = crawling_by_app_name(app_name=app[0], app_package=app[1], search_url=search_url,
                                      comment_url=comment_url, log=package_validation_failed_log, is_print=is_print)
@@ -88,4 +91,7 @@ def crawling_by_app_names_and_packages(apps: Tuple, db, comment_url, search_url,
                     print(e)
                 for value in tuples:
                     connect_mysql.insert_comment(db, value)
+        jojoy_db = connect_mysql.open_jojoy()
+        connect_mysql.update_app_set_is_crawed_1(jojoy_db, app[2])
+        connect_mysql.close_jojoy(jojoy_db)
     package_validation_failed_log.close()

@@ -1,9 +1,0 @@
-{
-    "success": false,
-    "data": {
-        "code": -1,
-        "msg": "",
-        "error": "not_found",
-        "error_description": "Not found anything matching the \"id\" parameter."
-    }
-}

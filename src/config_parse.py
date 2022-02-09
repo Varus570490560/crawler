@@ -1,13 +1,14 @@
 import configparser
+import os
 
 
 class Url:
     def __init__(self, source):
         cf = configparser.ConfigParser()
         if source == 'com':
-            cf.read(filenames='./config/com_url.ini')
+            cf.read('/Users/rockey211224/PycharmProjects/crawler/crawler/config/com_url.ini')
         elif source == 'io':
-            cf.read(filenames='./config/io_url.ini')
+            cf.read('/Users/rockey211224/PycharmProjects/crawler/crawler/config/io_url.ini')
         else:
             print('config file parse error')
             exit(1)
