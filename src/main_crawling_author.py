@@ -13,5 +13,5 @@ if __name__ == '__main__':
         source = sys.argv[1]
     url = config_parse.Url(source=source)
     ids = connect_mysql.select_author_id()
-    id_lst = muti_thread.tuple_cut(ids, 10000)
+    id_lst = muti_thread.tuple_cut(ids, 80000)
     muti_thread.muti_thread_craw_author(author_lst=id_lst, is_print=False, author_url=url.author_url)
